@@ -1,7 +1,6 @@
 
 import pymysql
 from sqlalchemy import create_engine, Column, Integer, String
-
 from sqlalchemy.orm import sessionmaker,declarative_base
 from sqlalchemy.exc import SQLAlchemyError
 from flask_sqlalchemy import SQLAlchemy
@@ -27,7 +26,6 @@ class Employees(db.Model):
     def __repr__(self):
         return f'<Employee {self.id}>'
 
-
 @app.route('/')
 def hello_world():
     return 'Hello World'
@@ -51,7 +49,6 @@ def create_employee():
 def update_employee(employee_id):
     employee = Employees.query.get_or_404(employee_id)
     data = request.json
-
     employee.name = data['name']
     employee.department = data['department']
     db.session.commit()
@@ -70,7 +67,6 @@ def delete_employee(employee_id):
 if __name__ == '__main__':
     try:
         app.run(port = 8000,debug=True)
-        # db.create_all()
     except Exception as ex:
         print(ex)
 
