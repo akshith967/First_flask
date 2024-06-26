@@ -10,3 +10,10 @@
 2024-06-26 17:07:04,811 - __main__ - ERROR - Failed to create employee: name 'Employees' is not defined
 2024-06-26 17:07:45,896 - __main__ - INFO - Connected to broker
 2024-06-26 17:09:56,379 - __main__ - INFO - Connected to broker
+2024-06-26 17:21:45,706 - __main__ - INFO - Connected to broker
+2024-06-26 17:21:46,705 - __main__ - INFO - Connected to broker
+2024-06-26 17:22:36,099 - __main__ - INFO - Connected to broker
+2024-06-26 17:22:38,793 - __main__ - INFO - Fetched all the employees
+2024-06-26 17:22:45,234 - __main__ - INFO - Fetched all the employees
+2024-06-26 17:22:50,767 - __main__ - INFO - Creating a new employee
+2024-06-26 17:22:50,775 - __main__ - INFO - Employee created successfully with id: 55

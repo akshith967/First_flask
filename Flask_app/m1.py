@@ -59,7 +59,7 @@ def setup_mqtt(app, db, logger,Employees):
     mqtt_client.message_callback_add("insert", insert_table)
     mqtt_client.message_callback_add("update", update_table)
     mqtt_client.message_callback_add("delete", delete_record)
-    mqtt_client.message_callback_add("dislay_message", on_publish)
+    mqtt_client.message_callback_add("display_message", on_publish)
     mqtt_client.connect("127.0.0.1", 1883, 60)
     mqtt_client.loop_start()
     return mqtt_client
