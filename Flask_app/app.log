@@ -1,0 +1,12 @@
+2024-06-26 16:34:01,215 - f - INFO - creating a new employee
+2024-06-26 16:34:01,216 - f - INFO - Creation of employee is failed
+2024-06-26 16:34:58,902 - f - INFO - creating a new employee
+2024-06-26 16:34:58,902 - f - INFO - Creation of employee is failed
+2024-06-26 16:35:26,577 - f - INFO - creating a new employee
+2024-06-26 16:35:26,577 - f - INFO - Creation of employee is failed
+2024-06-26 16:36:35,045 - f - INFO - creating a new employee
+2024-06-26 16:36:35,045 - f - INFO - Creation of employee is failed
+2024-06-26 17:06:39,117 - __main__ - INFO - Connected to broker
+2024-06-26 17:07:04,811 - __main__ - ERROR - Failed to create employee: name 'Employees' is not defined
+2024-06-26 17:07:45,896 - __main__ - INFO - Connected to broker
+2024-06-26 17:09:56,379 - __main__ - INFO - Connected to broker
