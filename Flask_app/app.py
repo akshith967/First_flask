@@ -3,13 +3,14 @@ from flask_sqlalchemy import SQLAlchemy
 import logging
 import json
 from m1 import setup_mqtt
+from flask_migrate import Migrate
 
 # Initialize Flask application
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://ak:root@127.0.0.1:3306/company'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
-
+migrate = Migrate(app, db)
 # Set up logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -28,7 +29,7 @@ class Employees(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255), nullable=False)
     department = db.Column(db.String(255), nullable=False)
-
+    experience = db.Column(db.Integer)
     def __repr__(self):
         return f'<Employee {self.id}>'
 
@@ -86,3 +87,9 @@ def delete_employee(employee_id):
 
 if __name__ == '__main__':
     app.run(port=8000)
+
+
+
+
+
+

@@ -4,22 +4,13 @@ import json
 def setup_mqtt(app, db, logger,Employees):
     mqtt_client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1,"T")
 
-    def on_connect(client, userdata, flags, rc):
-        if rc == 0:
-            print("connected")
-            logger.info("Connected to broker")
-            mqtt_client.subscribe("display_message")
-            mqtt_client.subscribe("insert")
-            mqtt_client.subscribe("update")
-            mqtt_client.subscribe("delete")
-        else:
-            logger.error("Connection failed with code %d", rc)
+  
 
     def insert_table(client, userdata, message):
         with app.app_context():
             try:
                 data = json.loads(message.payload.decode())
-                new_employee = Employees(name=data['name'], department=data['department'])
+                new_employee = Employees(name=data['name'], department=data['department'], experience = data['experience'])
                 db.session.add(new_employee)
                 db.session.commit()
                 client.publish("display_message", f"Employee created successfully with id: {new_employee.id}")
@@ -34,6 +25,7 @@ def setup_mqtt(app, db, logger,Employees):
                 employee = Employees.query.get_or_404(data['e_id'])
                 employee.name = data['user']['name']
                 employee.department = data['user']['department']
+                employee.experience = data['user']['experience']
                 db.session.commit()
                 client.publish("display_message", f"Employee updated successfully with id: {data['e_id']}")
             except Exception as e:
@@ -54,6 +46,21 @@ def setup_mqtt(app, db, logger,Employees):
 
     def on_publish(client, userdata, message):
         logger.info(message.payload.decode())
+    
+    subscriber = {
+        "display_message" : on_publish,
+        "insert" : insert_table,
+        "update" : update_table,
+        "delete" : delete_record
+    }
+    def on_connect(client, userdata, flags, rc):
+        if rc == 0:
+            logger.info("Connected to broker")
+            for key, value in subscriber.items():
+                mqtt_client.subscribe(key)
+                mqtt_client.message_callback_add(key, value)
+        else:
+            logger.error("Connection failed with code %d", rc)
 
     mqtt_client.on_connect = on_connect
     mqtt_client.message_callback_add("insert", insert_table)

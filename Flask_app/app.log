@@ -17,3 +17,52 @@
 2024-06-26 17:22:45,234 - __main__ - INFO - Fetched all the employees
 2024-06-26 17:22:50,767 - __main__ - INFO - Creating a new employee
 2024-06-26 17:22:50,775 - __main__ - INFO - Employee created successfully with id: 55
+2024-06-26 18:19:55,930 - __main__ - INFO - Connected to broker
+2024-06-26 18:20:13,023 - __main__ - INFO - Fetched all the employees
+2024-06-26 18:20:25,134 - __main__ - INFO - Creating a new employee
+2024-06-26 18:20:25,141 - __main__ - INFO - Employee created successfully with id: 56
+2024-06-27 10:27:16,423 - __main__ - INFO - Connected to broker
+2024-06-27 10:44:26,976 - __main__ - INFO - Connected to broker
+2024-06-27 10:46:39,479 - __main__ - INFO - Connected to broker
+2024-06-27 10:47:05,948 - __main__ - INFO - Fetched all the employees
+2024-06-27 10:48:28,445 - __main__ - INFO - Creating a new employee
+2024-06-27 10:48:28,457 - __main__ - INFO - Employee created successfully with id: 57
+2024-06-27 10:50:00,554 - __main__ - INFO - Updating an employee with id 31
+2024-06-27 10:50:00,556 - __main__ - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-06-27 10:50:00,557 - __main__ - INFO - Updation of employee failed with id: 31
+2024-06-27 10:57:52,236 - __main__ - INFO - Deleting an employee with id 31
+2024-06-27 10:57:52,237 - __main__ - ERROR - Failed to delete employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-06-27 10:57:52,238 - __main__ - INFO - Deletion of employee failed with id: 31
+2024-06-27 11:17:22,119 - __main__ - INFO - Creating a new employee
+2024-06-27 11:17:22,130 - __main__ - INFO - Employee created successfully with id: 58
+2024-06-27 14:07:09,350 - __main__ - INFO - Connected to broker
+2024-06-27 14:12:01,273 - __main__ - INFO - Connected to broker
+2024-06-27 14:12:20,039 - __main__ - INFO - Connected to broker
+2024-06-27 14:25:32,082 - __main__ - INFO - Connected to broker
+2024-06-27 14:26:16,008 - __main__ - INFO - Connected to broker
+2024-06-27 14:26:27,037 - __main__ - INFO - Connected to broker
+2024-06-27 14:34:51,240 - __main__ - INFO - Connected to broker
+2024-06-27 14:36:29,775 - __main__ - INFO - Connected to broker
+2024-06-27 14:37:06,052 - __main__ - INFO - Fetched all the employees
+2024-06-27 14:54:09,715 - __main__ - INFO - Connected to broker
+2024-06-27 14:58:39,773 - __main__ - INFO - Connected to broker
+2024-06-27 15:09:38,276 - __main__ - INFO - Connected to broker
+2024-06-27 15:26:18,145 - __main__ - INFO - Connected to broker
+2024-06-27 15:36:29,447 - __main__ - INFO - Connected to broker
+2024-06-27 15:39:31,099 - app - INFO - Connected to broker
+2024-06-27 15:45:20,972 - app - INFO - Connected to broker
+2024-06-27 15:49:21,941 - app - INFO - Connected to broker
+2024-06-27 15:49:53,460 - app - INFO - Connected to broker
+2024-06-27 15:58:03,652 - __main__ - INFO - Connected to broker
+2024-06-27 16:02:22,793 - app - INFO - Connected to broker
+2024-06-27 16:02:26,593 - app - INFO - Connected to broker
+2024-06-27 16:02:31,663 - __main__ - INFO - Connected to broker
+2024-06-27 16:02:39,983 - __main__ - INFO - Creating a new employee
+2024-06-27 16:02:39,996 - __main__ - INFO - Employee created successfully with id: 59
+2024-06-27 16:05:29,072 - __main__ - INFO - Connected to broker
+2024-06-27 16:05:33,287 - __main__ - INFO - Creating a new employee
+2024-06-27 16:05:33,299 - __main__ - INFO - Employee created successfully with id: 60
+2024-06-27 16:06:15,435 - __main__ - INFO - Creating a new employee
+2024-06-27 16:06:15,435 - __main__ - ERROR - Failed to create employee: 'experience'
+2024-06-27 16:06:15,436 - __main__ - INFO - Creation of employee failed
+2024-06-27 17:39:45,076 - __main__ - INFO - Connected to broker
