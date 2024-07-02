@@ -1,0 +1,728 @@
+2024-06-26 16:34:01,215 - f - INFO - creating a new employee
+2024-06-26 16:34:01,216 - f - INFO - Creation of employee is failed
+2024-06-26 16:34:58,902 - f - INFO - creating a new employee
+2024-06-26 16:34:58,902 - f - INFO - Creation of employee is failed
+2024-06-26 16:35:26,577 - f - INFO - creating a new employee
+2024-06-26 16:35:26,577 - f - INFO - Creation of employee is failed
+2024-06-26 16:36:35,045 - f - INFO - creating a new employee
+2024-06-26 16:36:35,045 - f - INFO - Creation of employee is failed
+2024-06-26 17:06:39,117 - __main__ - INFO - Connected to broker
+2024-06-26 17:07:04,811 - __main__ - ERROR - Failed to create employee: name 'Employees' is not defined
+2024-06-26 17:07:45,896 - __main__ - INFO - Connected to broker
+2024-06-26 17:09:56,379 - __main__ - INFO - Connected to broker
+2024-06-26 17:21:45,706 - __main__ - INFO - Connected to broker
+2024-06-26 17:21:46,705 - __main__ - INFO - Connected to broker
+2024-06-26 17:22:36,099 - __main__ - INFO - Connected to broker
+2024-06-26 17:22:38,793 - __main__ - INFO - Fetched all the employees
+2024-06-26 17:22:45,234 - __main__ - INFO - Fetched all the employees
+2024-06-26 17:22:50,767 - __main__ - INFO - Creating a new employee
+2024-06-26 17:22:50,775 - __main__ - INFO - Employee created successfully with id: 55
+2024-06-26 18:19:55,930 - __main__ - INFO - Connected to broker
+2024-06-26 18:20:13,023 - __main__ - INFO - Fetched all the employees
+2024-06-26 18:20:25,134 - __main__ - INFO - Creating a new employee
+2024-06-26 18:20:25,141 - __main__ - INFO - Employee created successfully with id: 56
+2024-06-27 10:27:16,423 - __main__ - INFO - Connected to broker
+2024-06-27 10:44:26,976 - __main__ - INFO - Connected to broker
+2024-06-27 10:46:39,479 - __main__ - INFO - Connected to broker
+2024-06-27 10:47:05,948 - __main__ - INFO - Fetched all the employees
+2024-06-27 10:48:28,445 - __main__ - INFO - Creating a new employee
+2024-06-27 10:48:28,457 - __main__ - INFO - Employee created successfully with id: 57
+2024-06-27 10:50:00,554 - __main__ - INFO - Updating an employee with id 31
+2024-06-27 10:50:00,556 - __main__ - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-06-27 10:50:00,557 - __main__ - INFO - Updation of employee failed with id: 31
+2024-06-27 10:57:52,236 - __main__ - INFO - Deleting an employee with id 31
+2024-06-27 10:57:52,237 - __main__ - ERROR - Failed to delete employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-06-27 10:57:52,238 - __main__ - INFO - Deletion of employee failed with id: 31
+2024-06-27 11:17:22,119 - __main__ - INFO - Creating a new employee
+2024-06-27 11:17:22,130 - __main__ - INFO - Employee created successfully with id: 58
+2024-06-27 14:07:09,350 - __main__ - INFO - Connected to broker
+2024-06-28 15:34:22,955 - app - INFO - Connected to broker
+2024-06-28 15:42:30,283 - __main__ - INFO - Connected to broker
+2024-06-28 15:47:02,626 - __main__ - INFO - Connected to broker
+2024-06-28 15:47:18,928 - __main__ - INFO - Connected to broker
+2024-06-28 15:51:26,354 - __main__ - INFO - Connected to broker
+2024-06-28 15:52:30,081 - app - INFO - Connected to broker
+2024-06-28 15:52:48,711 - app - INFO - Connected to broker
+2024-06-28 15:54:09,973 - __main__ - INFO - Connected to broker
+2024-06-28 16:38:02,121 - __main__ - INFO - Connected to broker
+2024-06-28 16:38:08,283 - __main__ - INFO - Creating a new employee
+2024-06-28 16:38:08,299 - __main__ - INFO - Employee created successfully with id: 63
+2024-07-01 10:50:20,196 - __main__ - INFO - Connected to broker
+2024-07-01 10:50:20,208 - app - INFO - Connected to broker
+2024-07-01 11:36:52,557 - app - INFO - Connected to broker
+2024-07-01 11:41:08,697 - app - INFO - Connected to broker
+2024-07-01 11:41:57,832 - app - INFO - Connected to broker
+2024-07-01 11:42:03,390 - app - INFO - Creating a new employee
+2024-07-01 11:42:03,407 - app - INFO - Employee created successfully with id: 64
+2024-07-01 11:51:19,381 - app - INFO - Connected to broker
+2024-07-01 11:51:25,434 - app - INFO - Creating a new employee
+2024-07-01 11:51:25,452 - app - INFO - Employee created successfully with id: 65
+2024-07-01 11:52:59,744 - app - INFO - Connected to broker
+2024-07-01 11:53:05,190 - app - INFO - Creating a new employee
+2024-07-01 11:53:05,206 - app - INFO - Employee created successfully with id: 66
+2024-07-01 14:09:38,099 - app - INFO - Connected to broker
+2024-07-01 14:09:47,929 - app - INFO - Creating a new employee
+2024-07-01 14:09:47,946 - app - INFO - Employee created successfully with id: 67
+2024-07-01 17:25:15,655 - app - INFO - Connected to broker
+2024-07-01 17:27:38,907 - app - INFO - Connected to broker
+2024-07-01 17:32:07,936 - app - INFO - Connected to broker
+
+2024-07-01 17:33:06,634 - app - INFO - Fetched all the employees
+2024-07-01 17:33:13,097 - app - INFO - Fetched all the employees
+2024-07-01 17:33:19,735 - app - INFO - Fetched all the employees
+2024-07-01 17:33:21,997 - app - INFO - Fetched all the employees
+2024-07-01 17:33:23,166 - app - INFO - Fetched all the employees
+2024-07-01 17:33:24,185 - app - INFO - Fetched all the employees
+2024-07-01 17:33:25,100 - app - INFO - Fetched all the employees
+2024-07-01 17:33:25,857 - app - INFO - Fetched all the employees
+2024-07-01 17:33:26,737 - app - INFO - Fetched all the employees
+2024-07-01 17:33:27,538 - app - INFO - Fetched all the employees
+2024-07-01 17:35:24,325 - app - ERROR - Exception on /employees/ [POST]
+Traceback (most recent call last):
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/alingala/Flask_app/Employee/routes.py", line 20, in create_employee
+    from m1 import mqtt_client
+ValueError: attempted relative import beyond top-level package
+2024-07-01 17:35:57,316 - app - INFO - Connected to broker
+2024-07-01 17:51:07,279 - app - INFO - Connected to broker
+2024-07-01 17:51:20,889 - app - INFO - Creating a new employee
+2024-07-01 17:52:10,861 - app - INFO - Connected to broker
+2024-07-01 17:56:37,099 - app - INFO - Connected to broker
+2024-07-01 17:56:37,099 - app - INFO - Connected to broker
+2024-07-01 17:56:38,102 - app - INFO - Connected to broker
+2024-07-01 17:56:39,103 - app - INFO - Connected to broker
+2024-07-01 17:56:40,105 - app - INFO - Connected to broker
+2024-07-01 17:56:41,108 - app - INFO - Connected to broker
+2024-07-01 17:56:42,109 - app - INFO - Connected to broker
+2024-07-01 17:56:43,112 - app - INFO - Connected to broker
+2024-07-01 17:56:44,114 - app - INFO - Connected to broker
+2024-07-01 17:56:45,117 - app - INFO - Connected to broker
+2024-07-01 17:56:46,118 - app - INFO - Connected to broker
+2024-07-01 17:56:47,121 - app - INFO - Connected to broker
+2024-07-01 17:56:48,123 - app - INFO - Connected to broker
+2024-07-01 17:56:49,126 - app - INFO - Connected to broker
+2024-07-01 17:56:50,127 - app - INFO - Connected to broker
+2024-07-01 17:56:51,129 - app - INFO - Connected to broker
+2024-07-01 17:56:52,131 - app - INFO - Connected to broker
+2024-07-01 17:56:53,134 - app - INFO - Connected to broker
+2024-07-01 17:56:54,136 - app - INFO - Connected to broker
+2024-07-01 17:56:55,138 - app - INFO - Connected to broker
+2024-07-01 17:56:56,140 - app - INFO - Connected to broker
+2024-07-01 17:56:57,142 - app - INFO - Connected to broker
+2024-07-01 17:56:58,144 - app - INFO - Connected to broker
+2024-07-01 17:56:59,146 - app - INFO - Connected to broker
+2024-07-01 17:57:00,148 - app - INFO - Connected to broker
+2024-07-01 17:57:01,151 - app - INFO - Connected to broker
+2024-07-01 17:57:02,154 - app - INFO - Connected to broker
+2024-07-01 17:57:03,156 - app - INFO - Connected to broker
+2024-07-01 17:57:04,158 - app - INFO - Connected to broker
+2024-07-01 17:57:05,160 - app - INFO - Connected to broker
+2024-07-01 17:57:06,162 - app - INFO - Connected to broker
+2024-07-01 17:57:07,165 - app - INFO - Connected to broker
+2024-07-01 17:57:08,167 - app - INFO - Connected to broker
+2024-07-01 17:57:09,168 - app - INFO - Connected to broker
+2024-07-01 17:57:10,170 - app - INFO - Connected to broker
+2024-07-01 17:57:11,173 - app - INFO - Connected to broker
+2024-07-01 17:57:12,175 - app - INFO - Connected to broker
+2024-07-01 17:57:13,178 - app - INFO - Connected to broker
+2024-07-01 17:57:14,181 - app - INFO - Connected to broker
+2024-07-01 17:57:15,182 - app - INFO - Connected to broker
+2024-07-01 17:57:16,184 - app - INFO - Connected to broker
+2024-07-01 17:57:17,187 - app - INFO - Connected to broker
+2024-07-01 17:57:18,189 - app - INFO - Connected to broker
+2024-07-01 17:57:19,190 - app - INFO - Connected to broker
+2024-07-01 17:57:20,192 - app - INFO - Connected to broker
+2024-07-01 17:57:21,195 - app - INFO - Connected to broker
+2024-07-01 17:57:22,196 - app - INFO - Connected to broker
+2024-07-01 17:57:23,198 - app - INFO - Connected to broker
+2024-07-01 17:57:24,200 - app - INFO - Connected to broker
+2024-07-01 17:57:25,202 - app - INFO - Connected to broker
+2024-07-01 17:57:26,205 - app - INFO - Connected to broker
+2024-07-01 17:57:27,207 - app - INFO - Connected to broker
+2024-07-01 17:57:28,209 - app - INFO - Connected to broker
+2024-07-01 17:57:29,210 - app - INFO - Connected to broker
+2024-07-01 17:57:30,212 - app - INFO - Connected to broker
+2024-07-01 17:57:31,215 - app - INFO - Connected to broker
+2024-07-01 17:57:32,217 - app - INFO - Connected to broker
+2024-07-01 17:57:33,218 - app - INFO - Connected to broker
+2024-07-01 17:57:34,220 - app - INFO - Connected to broker
+2024-07-01 17:57:35,222 - app - INFO - Connected to broker
+2024-07-01 17:57:36,225 - app - INFO - Connected to broker
+2024-07-01 17:57:37,226 - app - INFO - Connected to broker
+2024-07-01 17:57:37,995 - app - INFO - Connected to broker
+2024-07-01 17:57:37,996 - app - INFO - Connected to broker
+2024-07-01 17:57:38,998 - app - INFO - Connected to broker
+2024-07-01 17:57:40,000 - app - INFO - Connected to broker
+2024-07-01 17:57:41,002 - app - INFO - Connected to broker
+2024-07-01 17:57:42,005 - app - INFO - Connected to broker
+2024-07-01 17:57:43,006 - app - INFO - Connected to broker
+2024-07-01 17:57:44,009 - app - INFO - Connected to broker
+2024-07-01 17:57:45,012 - app - INFO - Connected to broker
+2024-07-01 17:57:46,015 - app - INFO - Connected to broker
+2024-07-01 17:57:47,018 - app - INFO - Connected to broker
+2024-07-01 17:57:48,020 - app - INFO - Connected to broker
+2024-07-01 17:57:49,021 - app - INFO - Connected to broker
+2024-07-01 17:57:50,024 - app - INFO - Connected to broker
+2024-07-01 17:57:51,026 - app - INFO - Connected to broker
+2024-07-01 17:57:52,028 - app - INFO - Connected to broker
+2024-07-01 17:57:53,031 - app - INFO - Connected to broker
+2024-07-01 17:57:54,033 - app - INFO - Connected to broker
+2024-07-01 17:57:55,034 - app - INFO - Connected to broker
+2024-07-01 17:57:56,036 - app - INFO - Connected to broker
+2024-07-01 17:57:57,038 - app - INFO - Connected to broker
+2024-07-01 17:57:58,041 - app - INFO - Connected to broker
+2024-07-01 17:57:59,042 - app - INFO - Connected to broker
+2024-07-01 17:58:00,044 - app - INFO - Connected to broker
+2024-07-01 17:58:01,046 - app - INFO - Connected to broker
+2024-07-01 17:58:02,048 - app - INFO - Connected to broker
+2024-07-01 17:58:03,050 - app - INFO - Connected to broker
+2024-07-01 17:58:04,053 - app - INFO - Connected to broker
+2024-07-01 17:58:05,054 - app - INFO - Connected to broker
+2024-07-01 17:58:06,056 - app - INFO - Connected to broker
+2024-07-01 17:58:07,058 - app - INFO - Connected to broker
+2024-07-01 17:58:08,060 - app - INFO - Connected to broker
+2024-07-01 17:58:09,062 - app - INFO - Connected to broker
+2024-07-01 17:58:10,065 - app - INFO - Connected to broker
+2024-07-01 17:58:11,068 - app - INFO - Connected to broker
+2024-07-01 17:58:12,071 - app - INFO - Connected to broker
+2024-07-01 17:58:13,073 - app - INFO - Connected to broker
+2024-07-01 17:58:14,075 - app - INFO - Connected to broker
+2024-07-01 17:58:15,078 - app - INFO - Connected to broker
+2024-07-01 17:58:16,080 - app - INFO - Connected to broker
+2024-07-01 17:58:17,082 - app - INFO - Connected to broker
+2024-07-01 17:58:18,085 - app - INFO - Connected to broker
+2024-07-01 17:58:19,086 - app - INFO - Connected to broker
+2024-07-01 17:58:20,090 - app - INFO - Connected to broker
+2024-07-01 17:58:21,092 - app - INFO - Connected to broker
+2024-07-01 17:58:22,094 - app - INFO - Connected to broker
+2024-07-01 17:58:23,097 - app - INFO - Connected to broker
+2024-07-01 17:58:24,101 - app - INFO - Connected to broker
+2024-07-01 17:58:25,103 - app - INFO - Connected to broker
+2024-07-01 17:58:26,105 - app - INFO - Connected to broker
+2024-07-01 17:58:27,106 - app - INFO - Connected to broker
+2024-07-01 17:58:28,109 - app - INFO - Connected to broker
+2024-07-01 17:58:29,110 - app - INFO - Connected to broker
+2024-07-01 17:58:30,112 - app - INFO - Connected to broker
+2024-07-01 17:58:31,114 - app - INFO - Connected to broker
+2024-07-01 17:58:32,117 - app - INFO - Connected to broker
+2024-07-01 17:58:33,118 - app - INFO - Connected to broker
+2024-07-01 17:58:34,121 - app - INFO - Connected to broker
+2024-07-01 17:58:35,124 - app - INFO - Connected to broker
+2024-07-01 17:58:36,126 - app - INFO - Connected to broker
+2024-07-01 17:58:37,128 - app - INFO - Connected to broker
+2024-07-01 17:58:38,130 - app - INFO - Connected to broker
+2024-07-01 17:58:39,133 - app - INFO - Connected to broker
+2024-07-01 17:58:40,134 - app - INFO - Connected to broker
+2024-07-01 17:58:41,137 - app - INFO - Connected to broker
+2024-07-01 17:58:42,140 - app - INFO - Connected to broker
+2024-07-01 17:58:43,142 - app - INFO - Connected to broker
+2024-07-01 17:58:44,144 - app - INFO - Connected to broker
+2024-07-01 17:58:45,146 - app - INFO - Connected to broker
+2024-07-01 17:58:46,148 - app - INFO - Connected to broker
+2024-07-01 17:58:47,150 - app - INFO - Connected to broker
+2024-07-01 17:58:48,153 - app - INFO - Connected to broker
+2024-07-01 17:58:49,154 - app - INFO - Connected to broker
+2024-07-01 17:58:50,156 - app - INFO - Connected to broker
+2024-07-01 17:58:51,159 - app - INFO - Connected to broker
+2024-07-01 17:58:52,162 - app - INFO - Connected to broker
+2024-07-01 17:58:53,165 - app - INFO - Connected to broker
+2024-07-01 17:58:54,167 - app - INFO - Connected to broker
+2024-07-01 17:58:55,169 - app - INFO - Connected to broker
+2024-07-01 17:58:56,170 - app - INFO - Connected to broker
+2024-07-01 17:58:57,172 - app - INFO - Connected to broker
+2024-07-01 17:58:58,175 - app - INFO - Connected to broker
+2024-07-01 17:58:59,177 - app - INFO - Connected to broker
+2024-07-01 17:59:00,179 - app - INFO - Connected to broker
+2024-07-01 17:59:01,181 - app - INFO - Connected to broker
+2024-07-01 17:59:02,183 - app - INFO - Connected to broker
+2024-07-01 17:59:03,186 - app - INFO - Connected to broker
+2024-07-01 17:59:04,188 - app - INFO - Connected to broker
+2024-07-01 17:59:05,191 - app - INFO - Connected to broker
+2024-07-01 17:59:06,194 - app - INFO - Connected to broker
+2024-07-01 17:59:07,197 - app - INFO - Connected to broker
+2024-07-01 17:59:08,199 - app - INFO - Connected to broker
+2024-07-01 17:59:09,200 - app - INFO - Connected to broker
+2024-07-01 17:59:10,202 - app - INFO - Connected to broker
+2024-07-01 17:59:11,204 - app - INFO - Connected to broker
+2024-07-01 17:59:12,205 - app - INFO - Connected to broker
+2024-07-01 17:59:13,208 - app - INFO - Connected to broker
+2024-07-01 17:59:14,210 - app - INFO - Connected to broker
+2024-07-01 17:59:15,213 - app - INFO - Connected to broker
+2024-07-01 17:59:16,214 - app - INFO - Connected to broker
+2024-07-01 17:59:17,217 - app - INFO - Connected to broker
+2024-07-01 17:59:18,220 - app - INFO - Connected to broker
+2024-07-01 17:59:19,221 - app - INFO - Connected to broker
+2024-07-01 17:59:20,224 - app - INFO - Connected to broker
+2024-07-01 17:59:21,227 - app - INFO - Connected to broker
+2024-07-01 17:59:22,229 - app - INFO - Connected to broker
+2024-07-01 17:59:23,232 - app - INFO - Connected to broker
+2024-07-01 17:59:24,235 - app - INFO - Connected to broker
+2024-07-01 17:59:25,238 - app - INFO - Connected to broker
+2024-07-01 17:59:26,240 - app - INFO - Connected to broker
+2024-07-01 17:59:27,243 - app - INFO - Connected to broker
+2024-07-01 17:59:28,245 - app - INFO - Connected to broker
+2024-07-01 17:59:29,246 - app - INFO - Connected to broker
+2024-07-01 17:59:30,248 - app - INFO - Connected to broker
+2024-07-01 17:59:31,251 - app - INFO - Connected to broker
+2024-07-01 17:59:32,254 - app - INFO - Connected to broker
+2024-07-01 17:59:33,256 - app - INFO - Connected to broker
+2024-07-01 17:59:34,258 - app - INFO - Connected to broker
+2024-07-01 17:59:35,261 - app - INFO - Connected to broker
+2024-07-01 17:59:36,263 - app - INFO - Connected to broker
+2024-07-01 17:59:37,265 - app - INFO - Connected to broker
+2024-07-01 17:59:38,267 - app - INFO - Connected to broker
+2024-07-01 17:59:39,269 - app - INFO - Connected to broker
+2024-07-01 17:59:40,271 - app - INFO - Connected to broker
+2024-07-01 17:59:41,274 - app - INFO - Connected to broker
+2024-07-01 17:59:42,276 - app - INFO - Connected to broker
+2024-07-01 17:59:43,279 - app - INFO - Connected to broker
+2024-07-01 17:59:44,281 - app - INFO - Connected to broker
+2024-07-01 17:59:45,283 - app - INFO - Connected to broker
+2024-07-01 17:59:46,284 - app - INFO - Connected to broker
+2024-07-01 17:59:47,288 - app - INFO - Connected to broker
+2024-07-01 17:59:48,290 - app - INFO - Connected to broker
+2024-07-01 17:59:49,292 - app - INFO - Connected to broker
+2024-07-01 17:59:50,294 - app - INFO - Connected to broker
+2024-07-01 17:59:51,297 - app - INFO - Connected to broker
+2024-07-01 17:59:52,300 - app - INFO - Connected to broker
+2024-07-01 17:59:53,302 - app - INFO - Connected to broker
+2024-07-01 17:59:54,304 - app - INFO - Connected to broker
+2024-07-01 17:59:55,306 - app - INFO - Connected to broker
+2024-07-01 17:59:56,308 - app - INFO - Connected to broker
+2024-07-01 17:59:57,311 - app - INFO - Connected to broker
+2024-07-01 17:59:58,313 - app - INFO - Connected to broker
+2024-07-01 17:59:59,314 - app - INFO - Connected to broker
+2024-07-01 18:00:00,317 - app - INFO - Connected to broker
+2024-07-01 18:00:01,319 - app - INFO - Connected to broker
+2024-07-01 18:00:02,322 - app - INFO - Connected to broker
+2024-07-01 18:00:03,324 - app - INFO - Connected to broker
+2024-07-01 18:00:04,325 - app - INFO - Connected to broker
+2024-07-01 18:00:05,327 - app - INFO - Connected to broker
+2024-07-01 18:00:06,330 - app - INFO - Connected to broker
+2024-07-01 18:00:07,333 - app - INFO - Connected to broker
+2024-07-01 18:00:08,335 - app - INFO - Connected to broker
+2024-07-01 18:00:09,338 - app - INFO - Connected to broker
+2024-07-01 18:00:10,341 - app - INFO - Connected to broker
+2024-07-01 18:00:11,343 - app - INFO - Connected to broker
+2024-07-01 18:00:12,346 - app - INFO - Connected to broker
+2024-07-01 18:00:13,349 - app - INFO - Connected to broker
+2024-07-01 18:00:14,352 - app - INFO - Connected to broker
+2024-07-01 18:00:15,354 - app - INFO - Connected to broker
+2024-07-01 18:00:16,357 - app - INFO - Connected to broker
+2024-07-01 18:00:17,358 - app - INFO - Connected to broker
+2024-07-01 18:00:18,360 - app - INFO - Connected to broker
+2024-07-01 18:00:19,362 - app - INFO - Connected to broker
+2024-07-01 18:00:20,365 - app - INFO - Connected to broker
+2024-07-01 18:00:21,366 - app - INFO - Connected to broker
+2024-07-01 18:00:22,369 - app - INFO - Connected to broker
+2024-07-01 18:00:23,371 - app - INFO - Connected to broker
+2024-07-01 18:00:24,374 - app - INFO - Connected to broker
+2024-07-01 18:00:25,377 - app - INFO - Connected to broker
+2024-07-01 18:00:26,379 - app - INFO - Connected to broker
+2024-07-01 18:00:27,382 - app - INFO - Connected to broker
+2024-07-01 18:00:28,385 - app - INFO - Connected to broker
+2024-07-01 18:00:29,388 - app - INFO - Connected to broker
+2024-07-01 18:00:30,390 - app - INFO - Connected to broker
+2024-07-01 18:00:31,392 - app - INFO - Connected to broker
+2024-07-01 18:00:32,395 - app - INFO - Connected to broker
+2024-07-01 18:00:33,396 - app - INFO - Connected to broker
+2024-07-01 18:00:34,399 - app - INFO - Connected to broker
+2024-07-01 18:00:35,401 - app - INFO - Connected to broker
+2024-07-01 18:00:36,404 - app - INFO - Connected to broker
+2024-07-01 18:00:37,406 - app - INFO - Connected to broker
+2024-07-01 18:00:38,408 - app - INFO - Connected to broker
+2024-07-01 18:00:39,411 - app - INFO - Connected to broker
+2024-07-01 18:00:40,414 - app - INFO - Connected to broker
+2024-07-01 18:00:41,417 - app - INFO - Connected to broker
+2024-07-01 18:00:42,420 - app - INFO - Connected to broker
+2024-07-01 18:00:43,422 - app - INFO - Connected to broker
+2024-07-01 18:00:44,425 - app - INFO - Connected to broker
+2024-07-01 18:00:45,427 - app - INFO - Connected to broker
+2024-07-01 18:00:46,429 - app - INFO - Connected to broker
+2024-07-01 18:00:47,431 - app - INFO - Connected to broker
+2024-07-01 18:00:48,434 - app - INFO - Connected to broker
+2024-07-01 18:00:49,436 - app - INFO - Connected to broker
+2024-07-01 18:00:50,438 - app - INFO - Connected to broker
+2024-07-01 18:00:51,441 - app - INFO - Connected to broker
+2024-07-01 18:00:52,443 - app - INFO - Connected to broker
+2024-07-01 18:00:53,446 - app - INFO - Connected to broker
+2024-07-01 18:00:54,448 - app - INFO - Connected to broker
+2024-07-01 18:00:55,450 - app - INFO - Connected to broker
+2024-07-01 18:00:56,452 - app - INFO - Connected to broker
+2024-07-01 18:00:57,454 - app - INFO - Connected to broker
+2024-07-01 18:00:58,456 - app - INFO - Connected to broker
+2024-07-01 18:00:59,458 - app - INFO - Connected to broker
+2024-07-01 18:01:00,461 - app - INFO - Connected to broker
+2024-07-01 18:01:01,462 - app - INFO - Connected to broker
+2024-07-01 18:01:02,465 - app - INFO - Connected to broker
+2024-07-01 18:01:03,467 - app - INFO - Connected to broker
+2024-07-01 18:01:04,469 - app - INFO - Connected to broker
+2024-07-01 18:01:05,470 - app - INFO - Connected to broker
+2024-07-01 18:01:06,473 - app - INFO - Connected to broker
+2024-07-01 18:01:07,718 - app - INFO - Connected to broker
+2024-07-01 18:01:07,718 - app - INFO - Connected to broker
+2024-07-01 18:01:08,720 - app - INFO - Connected to broker
+2024-07-01 18:01:09,723 - app - INFO - Connected to broker
+2024-07-01 18:01:10,724 - app - INFO - Connected to broker
+2024-07-01 18:01:11,726 - app - INFO - Connected to broker
+2024-07-01 18:01:26,650 - app - INFO - Connected to broker
+2024-07-01 18:01:26,650 - app - INFO - Connected to broker
+2024-07-01 18:01:27,653 - app - INFO - Connected to broker
+2024-07-01 18:01:28,655 - app - INFO - Connected to broker
+2024-07-01 18:01:29,657 - app - INFO - Connected to broker
+2024-07-02 06:43:44,587 - app - INFO - Connected to broker
+2024-07-02 06:43:44,587 - app - INFO - Connected to broker
+2024-07-02 06:43:45,589 - app - INFO - Connected to broker
+2024-07-02 06:43:46,590 - app - INFO - Connected to broker
+2024-07-02 06:43:47,592 - app - INFO - Connected to broker
+2024-07-02 06:43:48,595 - app - INFO - Connected to broker
+2024-07-02 06:43:49,596 - app - INFO - Connected to broker
+2024-07-02 06:43:50,598 - app - INFO - Connected to broker
+2024-07-02 06:43:51,600 - app - INFO - Connected to broker
+2024-07-02 06:43:52,602 - app - INFO - Connected to broker
+2024-07-02 06:43:53,605 - app - INFO - Connected to broker
+2024-07-02 06:43:54,607 - app - INFO - Connected to broker
+2024-07-02 06:43:55,609 - app - INFO - Connected to broker
+2024-07-02 06:43:56,611 - app - INFO - Connected to broker
+2024-07-02 06:43:57,615 - app - INFO - Connected to broker
+2024-07-02 06:43:58,618 - app - INFO - Connected to broker
+2024-07-02 06:43:59,621 - app - INFO - Connected to broker
+2024-07-02 06:44:00,952 - app - INFO - Connected to broker
+2024-07-02 06:44:00,952 - app - INFO - Connected to broker
+2024-07-02 06:44:01,955 - app - INFO - Connected to broker
+2024-07-02 06:44:02,957 - app - INFO - Connected to broker
+2024-07-02 06:44:03,959 - app - INFO - Connected to broker
+2024-07-02 06:44:04,960 - app - INFO - Connected to broker
+2024-07-02 06:44:05,963 - app - INFO - Connected to broker
+2024-07-02 06:44:06,965 - app - INFO - Connected to broker
+2024-07-02 06:44:07,968 - app - INFO - Connected to broker
+2024-07-02 06:44:08,969 - app - INFO - Connected to broker
+2024-07-02 06:44:09,971 - app - INFO - Connected to broker
+2024-07-02 06:44:10,974 - app - INFO - Connected to broker
+2024-07-02 06:44:11,976 - app - INFO - Connected to broker
+2024-07-02 06:44:12,979 - app - INFO - Connected to broker
+2024-07-02 06:44:13,981 - app - INFO - Connected to broker
+2024-07-02 06:44:14,983 - app - INFO - Connected to broker
+2024-07-02 06:44:15,985 - app - INFO - Connected to broker
+2024-07-02 06:44:16,987 - app - INFO - Connected to broker
+2024-07-02 06:44:17,988 - app - INFO - Connected to broker
+2024-07-02 06:44:18,990 - app - INFO - Connected to broker
+2024-07-02 06:44:19,993 - app - INFO - Connected to broker
+2024-07-02 06:44:20,995 - app - INFO - Connected to broker
+2024-07-02 06:44:21,998 - app - INFO - Connected to broker
+2024-07-02 06:44:23,000 - app - INFO - Connected to broker
+2024-07-02 06:44:24,003 - app - INFO - Connected to broker
+2024-07-02 06:44:25,005 - app - INFO - Connected to broker
+2024-07-02 06:44:26,007 - app - INFO - Connected to broker
+2024-07-02 06:44:27,010 - app - INFO - Connected to broker
+2024-07-02 06:44:28,011 - app - INFO - Connected to broker
+2024-07-02 06:44:29,014 - app - INFO - Connected to broker
+2024-07-02 06:44:30,016 - app - INFO - Connected to broker
+2024-07-02 06:44:31,018 - app - INFO - Connected to broker
+2024-07-02 06:44:32,021 - app - INFO - Connected to broker
+2024-07-02 06:44:33,024 - app - INFO - Connected to broker
+2024-07-02 06:44:34,026 - app - INFO - Connected to broker
+2024-07-02 06:44:35,028 - app - INFO - Connected to broker
+2024-07-02 06:44:36,031 - app - INFO - Connected to broker
+2024-07-02 06:44:37,032 - app - INFO - Connected to broker
+2024-07-02 06:44:38,035 - app - INFO - Connected to broker
+2024-07-02 06:44:39,037 - app - INFO - Connected to broker
+2024-07-02 06:44:40,038 - app - INFO - Connected to broker
+2024-07-02 06:44:41,041 - app - INFO - Connected to broker
+2024-07-02 06:44:42,043 - app - INFO - Connected to broker
+2024-07-02 06:44:43,046 - app - INFO - Connected to broker
+2024-07-02 06:44:44,048 - app - INFO - Connected to broker
+2024-07-02 06:44:45,050 - app - INFO - Connected to broker
+2024-07-02 06:44:46,052 - app - INFO - Connected to broker
+2024-07-02 06:44:47,053 - app - INFO - Connected to broker
+2024-07-02 06:44:48,056 - app - INFO - Connected to broker
+2024-07-02 06:44:49,058 - app - INFO - Connected to broker
+2024-07-02 06:44:50,060 - app - INFO - Connected to broker
+2024-07-02 06:44:50,701 - app - INFO - Connected to broker
+2024-07-02 06:44:50,702 - app - INFO - Connected to broker
+2024-07-02 06:44:51,704 - app - INFO - Connected to broker
+2024-07-02 06:44:52,707 - app - INFO - Connected to broker
+2024-07-02 06:44:53,708 - app - INFO - Connected to broker
+2024-07-02 06:44:54,710 - app - INFO - Connected to broker
+2024-07-02 06:44:55,713 - app - INFO - Connected to broker
+2024-07-02 06:44:56,715 - app - INFO - Connected to broker
+2024-07-02 06:44:57,717 - app - INFO - Connected to broker
+2024-07-02 06:44:58,719 - app - INFO - Connected to broker
+2024-07-02 06:44:59,722 - app - INFO - Connected to broker
+2024-07-02 06:45:00,723 - app - INFO - Connected to broker
+2024-07-02 06:45:01,726 - app - INFO - Connected to broker
+2024-07-02 06:45:02,729 - app - INFO - Connected to broker
+2024-07-02 06:45:03,731 - app - INFO - Connected to broker
+2024-07-02 06:45:04,727 - app - INFO - Connected to broker
+2024-07-02 06:45:04,727 - app - INFO - Connected to broker
+2024-07-02 06:45:05,730 - app - INFO - Connected to broker
+2024-07-02 06:45:06,733 - app - INFO - Connected to broker
+2024-07-02 06:45:07,735 - app - INFO - Connected to broker
+2024-07-02 06:45:08,737 - app - INFO - Connected to broker
+2024-07-02 06:55:18,318 - app - INFO - Connected to broker
+2024-07-02 06:55:18,318 - app - INFO - Connected to broker
+2024-07-02 06:55:19,320 - app - INFO - Connected to broker
+2024-07-02 06:55:20,323 - app - INFO - Connected to broker
+2024-07-02 06:57:22,130 - app - INFO - Connected to broker
+2024-07-02 06:57:22,130 - app - INFO - Connected to broker
+2024-07-02 06:57:23,133 - app - INFO - Connected to broker
+2024-07-02 06:57:24,135 - app - INFO - Connected to broker
+2024-07-02 06:57:25,138 - app - INFO - Connected to broker
+2024-07-02 06:57:26,140 - app - INFO - Connected to broker
+2024-07-02 06:59:13,734 - app - INFO - Connected to broker
+2024-07-02 07:02:05,146 - app - INFO - Connected to broker
+2024-07-02 07:03:15,190 - app - INFO - Connected to broker
+2024-07-02 07:03:50,815 - app - INFO - Connected to broker
+2024-07-02 07:06:00,846 - app - INFO - Connected to broker
+2024-07-02 08:07:03,927 - app - INFO - Connected to broker
+2024-07-02 08:07:24,748 - app - INFO - Connected to broker
+2024-07-02 08:17:34,081 - app - INFO - Connected to broker
+2024-07-02 08:18:05,254 - app - INFO - Fetched all the employees
+2024-07-02 08:18:53,516 - app - INFO - Connected to broker
+2024-07-02 08:18:57,896 - app - INFO - Creating a new employee
+2024-07-02 08:20:47,272 - app - INFO - Creating a new employee
+2024-07-02 08:22:31,765 - app - INFO - Connected to broker
+2024-07-02 08:22:34,868 - app - INFO - Creating a new employee
+2024-07-02 08:22:34,872 - app - ERROR - Failed to create employee: Foreign key associated with column 'employees.project_id' could not find table 'projects' with which to generate a foreign key to target column 'id'
+2024-07-02 08:22:34,872 - app - INFO - Creation of employee failed
+2024-07-02 08:23:28,232 - app - INFO - Connected to broker
+2024-07-02 08:23:30,657 - app - INFO - Creating a new employee
+2024-07-02 08:23:30,661 - app - ERROR - Failed to create employee: Foreign key associated with column 'employees.project_id' could not find table 'Projects' with which to generate a foreign key to target column 'id'
+2024-07-02 08:23:30,661 - app - INFO - Creation of employee failed
+2024-07-02 08:24:33,699 - app - INFO - Connected to broker
+2024-07-02 08:24:36,999 - app - INFO - Creating a new employee
+2024-07-02 08:24:37,008 - app - ERROR - Failed to create employee: Foreign key associated with column 'employees.project_id' could not find table 'Projects' with which to generate a foreign key to target column 'id'
+2024-07-02 08:24:37,008 - app - INFO - Creation of employee failed
+2024-07-02 08:24:55,959 - app - INFO - Connected to broker
+2024-07-02 08:24:59,382 - app - INFO - Creating a new employee
+2024-07-02 08:24:59,390 - app - ERROR - Failed to create employee: Could not determine join condition between parent/child tables on relationship Projects.employees - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2024-07-02 08:24:59,391 - app - INFO - Creation of employee failed
+2024-07-02 08:25:31,475 - app - INFO - Connected to broker
+2024-07-02 08:26:11,155 - app - INFO - Connected to broker
+2024-07-02 08:26:14,156 - app - INFO - Creating a new employee
+2024-07-02 08:26:14,161 - app - ERROR - Failed to create employee: Could not determine join condition between parent/child tables on relationship Projects.employees - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2024-07-02 08:26:14,161 - app - INFO - Creation of employee failed
+2024-07-02 08:26:38,226 - app - INFO - Connected to broker
+2024-07-02 08:26:40,641 - app - INFO - Creating a new employee
+2024-07-02 08:26:40,645 - app - ERROR - Failed to create employee: Could not determine join condition between parent/child tables on relationship Projects.employees - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2024-07-02 08:26:40,645 - app - INFO - Creation of employee failed
+2024-07-02 08:58:24,179 - app - INFO - Connected to broker
+2024-07-02 08:58:31,794 - app - INFO - Creating a new employee
+2024-07-02 08:59:31,203 - app - INFO - Connected to broker
+2024-07-02 08:59:36,044 - app - INFO - Creating a new employee
+2024-07-02 08:59:36,048 - app - ERROR - Failed to create employee: Could not determine join condition between parent/child tables on relationship Projects.employees - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2024-07-02 08:59:36,049 - app - INFO - Creation of employee failed
+2024-07-02 09:08:25,551 - app - INFO - Connected to broker
+2024-07-02 09:08:32,658 - app - INFO - Creating a new employee
+2024-07-02 09:08:32,659 - app - ERROR - Failed to create employee: When initializing mapper Mapper[Employees(employees)], expression 'Project' failed to locate a name ('Project'). If this is a class name, consider adding this relationship() to the <class 'Employee.models.Employees'> class after both dependent classes have been defined.
+2024-07-02 09:08:32,659 - app - INFO - Creation of employee failed
+2024-07-02 09:09:19,989 - app - INFO - Connected to broker
+2024-07-02 09:09:22,151 - app - INFO - Creating a new employee
+2024-07-02 09:09:22,152 - app - ERROR - Failed to create employee: Module 'Employee' has no mapped classes registered under the name '_sa_instance_state'
+2024-07-02 09:09:22,152 - app - INFO - Creation of employee failed
+2024-07-02 09:09:59,633 - app - INFO - Connected to broker
+2024-07-02 09:10:01,502 - app - INFO - Creating a new employee
+2024-07-02 09:10:01,503 - app - ERROR - Failed to create employee: When initializing mapper Mapper[Employees(employees)], expression 'Project' failed to locate a name ('Project'). If this is a class name, consider adding this relationship() to the <class 'Employee.models.Employees'> class after both dependent classes have been defined.
+2024-07-02 09:10:01,503 - app - INFO - Creation of employee failed
+2024-07-02 09:10:31,631 - app - INFO - Connected to broker
+2024-07-02 09:10:33,011 - app - INFO - Creating a new employee
+2024-07-02 09:10:33,012 - app - ERROR - Failed to create employee: When initializing mapper Mapper[Employees(employees)], expression 'Project' failed to locate a name ('Project'). If this is a class name, consider adding this relationship() to the <class 'Employee.models.Employees'> class after both dependent classes have been defined.
+2024-07-02 09:10:33,012 - app - INFO - Creation of employee failed
+2024-07-02 09:11:19,664 - app - INFO - Connected to broker
+2024-07-02 09:12:50,616 - app - INFO - Connected to broker
+2024-07-02 09:13:10,854 - app - INFO - Connected to broker
+2024-07-02 09:13:28,950 - app - INFO - Connected to broker
+2024-07-02 09:13:41,950 - app - INFO - Connected to broker
+2024-07-02 09:13:58,383 - app - INFO - Connected to broker
+2024-07-02 09:16:26,772 - app - INFO - Connected to broker
+2024-07-02 09:17:01,278 - app - INFO - Connected to broker
+2024-07-02 09:18:29,260 - app - INFO - Connected to broker
+2024-07-02 09:18:37,163 - app - INFO - Creating a new employee
+2024-07-02 09:18:37,164 - app - ERROR - Failed to create employee: Mapper 'Mapper[Projects(projects)]' has no property 'employee'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2024-07-02 09:18:37,165 - app - INFO - Creation of employee failed
+2024-07-02 09:19:45,402 - app - INFO - Connected to broker
+2024-07-02 09:19:53,656 - app - INFO - Connected to broker
+2024-07-02 09:19:56,718 - app - INFO - Creating a new employee
+2024-07-02 09:19:56,738 - app - INFO - Employee created successfully with id: 68
+2024-07-02 09:38:39,799 - app - INFO - Connected to broker
+2024-07-02 09:39:11,621 - app - INFO - Creating a new project
+2024-07-02 09:43:21,848 - app - INFO - Connected to broker
+2024-07-02 09:43:24,461 - app - INFO - Fetched all the projects
+2024-07-02 09:43:37,663 - app - INFO - Creating a new project
+2024-07-02 09:45:10,472 - app - INFO - Connected to broker
+2024-07-02 09:45:15,122 - app - INFO - Creating a new project
+2024-07-02 09:45:15,136 - app - INFO - Project created successfully with id: 1
+2024-07-02 10:37:12,744 - app - INFO - Connected to broker
+2024-07-02 10:37:59,237 - app - INFO - Connected to broker
+2024-07-02 10:38:28,540 - app - INFO - Fetched all the employees
+2024-07-02 10:39:05,012 - app - INFO - Creating a new employee
+2024-07-02 10:39:05,012 - app - ERROR - Failed to create employee: 'department'
+2024-07-02 10:39:05,012 - app - INFO - Creation of employee failed
+2024-07-02 10:39:27,297 - app - INFO - Creating a new employee
+2024-07-02 10:39:27,310 - app - INFO - Employee created successfully with id: 69
+2024-07-02 10:40:25,754 - app - INFO - Connected to broker
+2024-07-02 10:40:30,665 - app - INFO - Creating a new employee
+2024-07-02 10:40:30,666 - app - ERROR - Failed to create employee: Module 'Employee' has no mapped classes registered under the name '_sa_instance_state'
+2024-07-02 10:40:30,666 - app - INFO - Creation of employee failed
+2024-07-02 10:48:30,461 - app - INFO - Connected to broker
+2024-07-02 10:48:34,661 - app - INFO - Fetched all the employees
+2024-07-02 10:48:40,025 - app - INFO - Creating a new employee
+2024-07-02 10:48:40,026 - app - ERROR - Failed to create employee: Foreign key associated with column 'employees.project_id' could not find table 'projects' with which to generate a foreign key to target column 'id'
+2024-07-02 10:48:40,027 - app - INFO - Creation of employee failed
+2024-07-02 10:50:46,199 - app - INFO - Connected to broker
+2024-07-02 10:50:51,374 - app - INFO - Fetched all the employees
+2024-07-02 10:50:56,285 - app - INFO - Creating a new employee
+2024-07-02 10:50:56,287 - app - ERROR - Failed to create employee: Foreign key associated with column 'employees.project_id' could not find table 'projects' with which to generate a foreign key to target column 'id'
+2024-07-02 10:50:56,287 - app - INFO - Creation of employee failed
+2024-07-02 10:54:43,715 - app - INFO - Connected to broker
+2024-07-02 10:54:49,383 - app - INFO - Fetched all the employees
+2024-07-02 10:55:30,098 - app - INFO - Connected to broker
+2024-07-02 10:56:04,137 - app - INFO - Connected to broker
+2024-07-02 10:56:06,367 - app - ERROR - Exception on /projects/ [GET]
+Traceback (most recent call last):
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 883, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 902, in finalize_request
+    response = self.make_response(rv)
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 1174, in make_response
+    raise TypeError(
+TypeError: The view function for 'projects_bp.get_employees' did not return a valid response. The function either returned None or ended without a return statement.
+2024-07-02 10:56:22,813 - app - ERROR - Exception on /projects/ [GET]
+Traceback (most recent call last):
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 883, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 902, in finalize_request
+    response = self.make_response(rv)
+  File "/home/alingala/Flask_app/myenv/lib/python3.8/site-packages/flask/app.py", line 1174, in make_response
+    raise TypeError(
+TypeError: The view function for 'projects_bp.get_employees' did not return a valid response. The function either returned None or ended without a return statement.
+2024-07-02 10:56:26,175 - app - INFO - Connected to broker
+2024-07-02 10:57:07,569 - app - INFO - Connected to broker
+2024-07-02 11:03:42,364 - app - INFO - Connected to broker
+2024-07-02 11:06:12,540 - app - INFO - Connected to broker
+2024-07-02 11:09:16,859 - app - INFO - Connected to broker
+2024-07-02 11:12:46,753 - app - INFO - Connected to broker
+2024-07-02 11:15:58,319 - app - INFO - Connected to broker
+2024-07-02 11:17:00,742 - app - INFO - Connected to broker
+2024-07-02 11:19:10,974 - app - INFO - Connected to broker
+2024-07-02 11:19:14,367 - app - INFO - Creating a new employee
+2024-07-02 11:19:14,382 - app - INFO - Employee created successfully with id: 1
+2024-07-02 11:19:44,605 - app - INFO - Creating a new project
+2024-07-02 11:19:44,616 - app - INFO - Project created successfully with id: 1
+2024-07-02 11:27:32,285 - app - INFO - Connected to broker
+2024-07-02 11:28:40,349 - app - INFO - Updating an employee with id 1
+2024-07-02 11:31:44,235 - app - INFO - Connected to broker
+2024-07-02 11:31:49,591 - app - INFO - Updating an employee with id 1
+2024-07-02 11:31:49,601 - app - ERROR - Failed to update employee: (mysql.connector.errors.IntegrityError) 1048 (23000): Column 'name' cannot be null
+[SQL: UPDATE employees SET name=%(name)s, department=%(department)s, project_id=%(project_id)s WHERE employees.id = %(employees_id)s]
+[parameters: {'name': None, 'department': None, 'project_id': 1, 'employees_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-07-02 11:31:49,601 - app - INFO - Updation of employee failed with id: 1
+2024-07-02 11:34:30,533 - app - INFO - Connected to broker
+2024-07-02 11:34:34,509 - app - INFO - Updating an employee with id 1
+2024-07-02 11:34:34,523 - app - INFO - Employee updated successfully with id: 1
+2024-07-02 11:35:14,051 - app - INFO - Creating a new project
+2024-07-02 11:35:14,059 - app - INFO - Project created successfully with id: 2
+2024-07-02 11:35:22,999 - app - INFO - Creating a new project
+2024-07-02 11:35:23,008 - app - INFO - Project created successfully with id: 3
+2024-07-02 11:35:27,642 - app - INFO - Creating a new project
+2024-07-02 11:35:27,651 - app - INFO - Project created successfully with id: 4
+2024-07-02 11:36:02,886 - app - INFO - Creating a new employee
+2024-07-02 11:36:02,896 - app - INFO - Employee created successfully with id: 2
+2024-07-02 11:44:02,111 - app - INFO - Connected to broker
+2024-07-02 11:45:08,649 - app - INFO - Updating an employee with id 2
+2024-07-02 11:45:08,661 - app - INFO - Employee updated successfully with id: 2
+2024-07-02 11:47:05,969 - app - INFO - Fetched all the projects
+2024-07-02 11:47:43,726 - app - INFO - Fetched all the employees
+2024-07-02 11:52:14,843 - app - INFO - Connected to broker
+2024-07-02 11:53:20,623 - app - INFO - Fetched all the employees
+2024-07-02 11:53:25,763 - app - INFO - Fetched all the projects
+2024-07-02 11:54:07,769 - app - INFO - Updating an employee with id 1
+2024-07-02 11:54:07,773 - app - ERROR - Failed to update employee: 'user'
+2024-07-02 11:54:07,773 - app - INFO - Updation of employee failed with id: 1
+2024-07-02 11:55:45,843 - app - INFO - Connected to broker
+2024-07-02 11:55:48,934 - app - INFO - Updating an employee with id 1
+2024-07-02 11:55:48,941 - app - INFO - Project updated successfully with id: 1
+2024-07-02 11:55:53,752 - app - INFO - Fetched all the projects
+2024-07-02 11:55:58,727 - app - INFO - Fetched all the projects
+2024-07-02 11:57:31,043 - app - INFO - Updating an employee with id 1
+2024-07-02 11:57:31,045 - app - INFO - Project updated successfully with id: 1
+2024-07-02 11:57:41,070 - app - INFO - Fetched all the projects
+2024-07-02 11:57:53,982 - app - INFO - Updating an employee with id 1
+2024-07-02 11:57:53,984 - app - INFO - Project updated successfully with id: 1
+2024-07-02 11:57:58,630 - app - INFO - Fetched all the projects
+2024-07-02 11:58:23,437 - app - INFO - Connected to broker
+2024-07-02 11:58:27,658 - app - INFO - Fetched all the projects
+2024-07-02 11:58:30,709 - app - INFO - Updating an employee with id 1
+2024-07-02 11:58:30,721 - app - INFO - Project updated successfully with id: 1
+2024-07-02 11:58:33,083 - app - INFO - Fetched all the employees
+2024-07-02 11:58:35,402 - app - INFO - Fetched all the projects
+2024-07-02 11:59:06,119 - app - INFO - Updating an employee with id 3
+2024-07-02 11:59:06,122 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-02 11:59:06,123 - app - INFO - Updation of employee failed with id: 3
+2024-07-02 12:00:34,429 - app - INFO - Updating an employee with id 3
+2024-07-02 12:00:34,431 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-02 12:00:34,431 - app - INFO - Updation of employee failed with id: 3
+2024-07-02 12:00:42,696 - app - INFO - Connected to broker
+2024-07-02 12:00:47,708 - app - INFO - Updating an employee with id 3
+2024-07-02 12:00:47,716 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-02 12:00:47,716 - app - INFO - Updation of employee failed with id: 3
+2024-07-02 12:03:36,404 - app - INFO - Creating a new employee
+2024-07-02 12:03:36,414 - app - INFO - Employee created successfully with id: 3
+2024-07-02 12:03:55,344 - app - INFO - Updating an employee with id 2
+2024-07-02 12:03:55,354 - app - INFO - Employee updated successfully with id: 2
+2024-07-02 12:03:59,740 - app - INFO - Fetched all the employees
+2024-07-02 12:04:35,823 - app - INFO - Updating an employee with id 2
+2024-07-02 12:04:35,831 - app - INFO - Employee updated successfully with id: 2
+2024-07-02 12:04:42,527 - app - INFO - Updating an employee with id 3
+2024-07-02 12:04:42,535 - app - INFO - Employee updated successfully with id: 3
+2024-07-02 12:15:07,009 - app - INFO - Connected to broker
+2024-07-02 15:39:19,760 - app - INFO - Connected to broker
+2024-07-02 15:54:37,022 - app - INFO - Connected to broker
+2024-07-02 15:54:41,749 - app - INFO - Fetched all the employees
+2024-07-02 15:54:54,177 - app - INFO - Creating a new employee
+2024-07-02 15:54:54,177 - app - ERROR - Failed to create employee: 'experience' is an invalid keyword argument for Employees
+2024-07-02 15:54:54,177 - app - INFO - Creation of employee failed
+2024-07-02 15:55:21,495 - app - INFO - Connected to broker
+2024-07-02 15:55:40,321 - app - INFO - Creating a new employee
+2024-07-02 15:55:40,335 - app - INFO - Employee created successfully with id: 1
+2024-07-02 15:56:16,059 - app - INFO - Creating a new employee
+2024-07-02 15:56:16,068 - app - INFO - Employee created successfully with id: 2
+2024-07-02 15:56:43,563 - app - INFO - Creating a new employee
+2024-07-02 15:56:43,572 - app - INFO - Employee created successfully with id: 3
+2024-07-02 15:57:03,716 - app - INFO - Creating a new project
+2024-07-02 15:57:03,725 - app - INFO - Project created successfully with id: 1
+2024-07-02 15:57:08,720 - app - INFO - Creating a new project
+2024-07-02 15:57:08,729 - app - INFO - Project created successfully with id: 2
+2024-07-02 15:57:34,336 - app - INFO - Updating an employee with id 1
+2024-07-02 15:57:34,345 - app - INFO - Employee updated successfully with id: 1
+2024-07-02 15:57:47,848 - app - INFO - Updating an employee with id 2
+2024-07-02 15:57:47,856 - app - INFO - Employee updated successfully with id: 2
+2024-07-02 15:58:21,477 - app - INFO - Updating an employee with id 3
+2024-07-02 15:58:21,485 - app - INFO - Employee updated successfully with id: 3
+2024-07-02 15:58:42,767 - app - INFO - Updating an employee with id 3
+2024-07-02 15:58:42,770 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-02 15:58:42,770 - app - INFO - Updation of project failed with id: 3
+2024-07-02 16:10:27,275 - app - INFO - Connected to broker
+2024-07-02 16:41:31,048 - app - INFO - Connected to broker
+2024-07-02 17:02:43,415 - app - INFO - Connected to broker
+2024-07-02 17:02:48,643 - app - INFO - Connected to broker
+2024-07-02 17:02:58,595 - app - INFO - Connected to broker
+2024-07-02 17:03:55,162 - app - INFO - Connected to broker
+2024-07-02 17:11:02,420 - app - INFO - Connected to broker
+2024-07-02 17:17:51,643 - app - INFO - Connected to broker
+2024-07-02 17:19:27,978 - app - INFO - Connected to broker
+2024-07-02 17:19:31,102 - app - INFO - Connected to broker
+2024-07-02 17:19:32,408 - app - INFO - Connected to broker
+2024-07-02 17:21:06,055 - app - INFO - Connected to broker
