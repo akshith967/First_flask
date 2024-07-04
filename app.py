@@ -36,16 +36,15 @@ with app.app_context():
 @app.route('/')
 def hello_world():
     return 'Hello World'
-
+from Employee.routes import employees_bp
+from Projects.routes import projects_bp
+import m1
+app.register_blueprint(employees_bp, url_prefix='/employees')
+app.register_blueprint(projects_bp, url_prefix='/projects')
 
 if __name__ == '__main__':
     # setup()
-    from Employee.routes import employees_bp
-    from Projects.routes import projects_bp
-    import m1
-    app.register_blueprint(employees_bp, url_prefix='/employees')
-    app.register_blueprint(projects_bp, url_prefix='/projects')
-    # app.run(port=8000)
+    app.run()
 
 
 

@@ -24,10 +24,15 @@ def get_employees(project_id):
         project = Projects.query.get(project_id)
         if not project:
             return jsonify({'error': 'Project not found'}), 404
-
         employees = Employees.query.filter_by(project_id=project_id).all()
         employee_list = [{'id': emp.id, 'name': emp.name} for emp in employees]
-        return jsonify(employee_list)
+        data = {
+            "project_id": project.id,
+            "project_name":project.name,
+            "project_status": project.status,
+            "employees" : employee_list
+        }
+        return jsonify(data)
     except Exception as e:
         return jsonify({'message': 'Failed to fetch project', 'error': str(e)}), 400
 
