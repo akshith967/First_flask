@@ -347,3 +347,169 @@ TypeError: The view function for 'projects_bp.get_employees' did not return a va
 2024-07-04 15:12:07,542 - app - INFO - Connected to broker
 2024-07-04 15:13:38,496 - app - INFO - Connected to broker
 2024-07-04 15:14:32,885 - app - INFO - Connected to broker
+2024-07-04 15:15:44,122 - app - INFO - Connected to broker
+2024-07-04 15:16:35,113 - app - INFO - Connected to broker
+2024-07-04 15:20:19,003 - app - INFO - Connected to broker
+2024-07-04 15:24:20,574 - app - INFO - Connected to broker
+2024-07-05 11:16:03,586 - app - INFO - Connected to broker
+2024-07-05 02:34:46,085 - app - INFO - Connected to broker
+2024-07-05 02:37:15,976 - app - INFO - Connected to broker
+2024-07-05 02:38:22,227 - app - INFO - Connected to broker
+2024-07-05 02:38:43,631 - app - INFO - Connected to broker
+2024-07-05 02:39:10,371 - app - INFO - Connected to broker
+2024-07-08 11:09:20,673 - app - INFO - Connected to broker
+2024-07-08 11:22:08,456 - app - INFO - Connected to broker
+2024-07-08 11:33:43,456 - app - INFO - Connected to broker
+2024-07-08 11:33:58,545 - app - INFO - Connected to broker
+2024-07-08 11:35:53,670 - app - INFO - Connected to broker
+2024-07-08 12:08:18,255 - app - INFO - Connected to broker
+2024-07-08 12:11:54,187 - app - INFO - Connected to broker
+2024-07-08 12:14:00,531 - app - INFO - Connected to broker
+2024-07-08 12:15:44,645 - app - INFO - Connected to broker
+2024-07-08 12:16:53,104 - app - INFO - Connected to broker
+2024-07-08 12:16:53,112 - app - INFO - Creating a new employee
+2024-07-08 12:19:51,519 - app - INFO - Connected to broker
+2024-07-08 12:19:51,528 - app - INFO - Creating a new employee
+2024-07-08 12:21:44,446 - app - INFO - Connected to broker
+2024-07-08 12:22:03,929 - app - INFO - Connected to broker
+2024-07-08 12:22:03,941 - app - INFO - Creating a new employee
+2024-07-08 12:31:56,609 - app - INFO - Connected to broker
+2024-07-08 12:33:13,022 - app - INFO - Creating a new employee
+2024-07-08 12:33:13,022 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-08 12:33:13,023 - app - INFO - Creation of employee failed
+2024-07-08 12:36:01,518 - app - INFO - Creating a new employee
+2024-07-08 12:36:01,518 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-08 12:36:01,518 - app - INFO - Creation of employee failed
+2024-07-08 12:40:49,190 - app - INFO - Connected to broker
+2024-07-08 12:40:54,980 - app - INFO - Creating a new employee
+2024-07-08 12:40:54,997 - app - INFO - Employee created successfully with id: 5
+2024-07-08 12:45:37,924 - app - INFO - Connected to broker
+2024-07-08 12:45:43,591 - app - INFO - Creating a new employee
+2024-07-08 12:45:43,591 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-08 12:45:43,591 - app - INFO - Creation of employee failed
+2024-07-08 12:46:13,474 - app - INFO - Creating a new employee
+2024-07-08 12:46:13,474 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-08 12:46:13,475 - app - INFO - Creation of employee failed
+2024-07-08 12:46:16,720 - app - INFO - Creating a new employee
+2024-07-08 12:46:16,720 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-08 12:46:16,720 - app - INFO - Creation of employee failed
+2024-07-08 12:48:28,404 - app - INFO - Connected to broker
+2024-07-08 12:48:31,809 - app - INFO - Creating a new employee
+2024-07-08 12:48:31,809 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-08 12:48:31,809 - app - INFO - Creation of employee failed
+2024-07-08 12:49:14,514 - app - INFO - Connected to broker
+2024-07-08 12:49:16,832 - app - INFO - Creating a new employee
+2024-07-08 12:49:16,833 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-08 12:49:16,833 - app - INFO - Creation of employee failed
+2024-07-08 13:52:48,764 - app - INFO - Connected to broker
+2024-07-08 13:53:02,224 - app - INFO - Connected to broker
+2024-07-08 13:54:04,984 - app - INFO - Connected to broker
+2024-07-08 13:57:06,457 - app - INFO - Connected to broker
+2024-07-08 13:58:18,969 - app - INFO - Connected to broker
+2024-07-08 13:59:06,791 - app - INFO - Connected to broker
+2024-07-08 13:59:06,817 - app - INFO - Creating a new employee
+2024-07-08 14:03:25,683 - app - INFO - Connected to broker
+2024-07-08 14:03:25,709 - app - INFO - Creating a new employee
+2024-07-08 14:03:25,772 - app - INFO - Employee created successfully with id: 6
+2024-07-08 14:04:24,580 - app - INFO - Connected to broker
+2024-07-08 14:04:24,586 - app - INFO - Creating a new employee
+2024-07-08 14:04:24,649 - app - INFO - Employee created successfully with id: 7
+2024-07-08 14:05:29,351 - app - INFO - Connected to broker
+2024-07-08 14:05:29,358 - app - INFO - Creating a new employee
+2024-07-08 14:05:29,418 - app - INFO - Employee created successfully with id: 8
+2024-07-08 14:12:28,150 - app - INFO - Connected to broker
+2024-07-08 14:12:28,157 - app - INFO - Creating a new employee
+2024-07-08 14:12:28,212 - app - INFO - Employee created successfully with id: 9
+2024-07-08 14:14:08,085 - app - INFO - Connected to broker
+2024-07-08 14:14:08,092 - app - INFO - Creating a new employee
+2024-07-08 14:14:08,152 - app - INFO - Employee created successfully with id: 10
+2024-07-08 14:14:46,189 - app - INFO - Connected to broker
+2024-07-08 14:14:46,197 - app - INFO - Creating a new employee
+2024-07-08 14:14:46,256 - app - INFO - Employee created successfully with id: 11
+2024-07-08 14:19:06,018 - app - INFO - Connected to broker
+2024-07-08 14:19:06,026 - app - INFO - Creating a new employee
+2024-07-08 14:19:06,091 - app - INFO - Employee created successfully with id: 12
+2024-07-08 14:20:12,612 - app - INFO - Connected to broker
+2024-07-08 14:20:28,462 - app - INFO - Connected to broker
+2024-07-08 14:20:29,471 - app - INFO - Creating a new employee
+2024-07-08 14:20:29,497 - app - INFO - Employee created successfully with id: 13
+2024-07-08 14:21:41,280 - app - INFO - Connected to broker
+2024-07-08 14:21:42,287 - app - INFO - Creating a new employee
+2024-07-08 14:21:42,304 - app - INFO - Employee created successfully with id: 14
+2024-07-08 14:24:21,971 - app - INFO - Connected to broker
+2024-07-08 14:24:22,978 - app - INFO - Creating a new employee
+2024-07-08 14:24:22,987 - app - INFO - Employee created successfully with id: 15
+2024-07-08 14:24:46,727 - app - INFO - Connected to broker
+2024-07-08 14:24:47,738 - app - INFO - Creating a new employee
+2024-07-08 14:24:47,763 - app - INFO - Employee created successfully with id: 16
+2024-07-08 14:25:22,379 - app - INFO - Connected to broker
+2024-07-08 14:25:23,387 - app - INFO - Creating a new employee
+2024-07-08 14:25:23,401 - app - INFO - Employee created successfully with id: 17
+2024-07-08 14:26:35,260 - app - INFO - Connected to broker
+2024-07-08 14:26:35,267 - app - INFO - Creating a new employee
+2024-07-08 14:31:25,382 - app - INFO - Connected to broker
+2024-07-08 14:31:25,390 - app - INFO - Creating a new employee
+2024-07-08 14:31:43,680 - app - INFO - Connected to broker
+2024-07-08 14:31:43,685 - app - INFO - Creating a new employee
+2024-07-08 14:31:43,746 - app - INFO - Employee created successfully with id: 18
+2024-07-08 14:33:10,387 - app - INFO - Connected to broker
+2024-07-08 14:33:30,784 - app - INFO - Connected to broker
+2024-07-08 14:33:45,210 - app - INFO - Connected to broker
+2024-07-08 14:33:45,216 - app - INFO - Creating a new employee
+2024-07-08 14:33:45,266 - app - INFO - Employee created successfully with id: 19
+2024-07-08 14:38:52,039 - app - INFO - Connected to broker
+2024-07-08 14:38:52,044 - app - INFO - Creating a new employee
+2024-07-08 14:38:52,109 - app - INFO - Employee created successfully with id: 20
+2024-07-08 14:40:01,019 - app - INFO - Connected to broker
+2024-07-08 14:40:01,025 - app - INFO - Creating a new employee
+2024-07-08 14:40:01,080 - app - INFO - Employee created successfully with id: 21
+2024-07-08 14:41:31,399 - app - INFO - Connected to broker
+2024-07-08 14:41:31,405 - app - INFO - Creating a new employee
+2024-07-08 14:50:47,570 - app - INFO - Connected to broker
+2024-07-08 14:50:47,576 - app - INFO - Creating a new employee
+2024-07-08 14:55:48,779 - app - INFO - Connected to broker
+2024-07-08 14:55:48,784 - app - INFO - Creating a new employee
+2024-07-08 14:56:25,943 - app - INFO - Connected to broker
+2024-07-08 14:56:25,949 - app - INFO - Creating a new employee
+2024-07-08 14:56:26,017 - app - INFO - Employee created successfully with id: 22
+2024-07-08 14:57:32,657 - app - INFO - Connected to broker
+2024-07-08 14:57:32,663 - app - INFO - Creating a new employee
+2024-07-08 14:58:19,941 - app - INFO - Connected to broker
+2024-07-08 14:58:19,947 - app - INFO - Creating a new employee
+2024-07-08 15:00:28,087 - app - INFO - Connected to broker
+2024-07-08 15:00:28,093 - app - INFO - Creating a new employee
+2024-07-08 15:00:28,157 - app - INFO - Employee created successfully with id: 23
+2024-07-08 15:24:03,371 - app - INFO - Connected to broker
+2024-07-08 15:24:03,376 - app - INFO - Creating a new employee
+2024-07-08 15:24:03,440 - app - INFO - Employee created successfully with id: 24
+2024-07-08 15:24:33,813 - app - INFO - Connected to broker
+2024-07-08 15:24:33,819 - app - INFO - Creating a new employee
+2024-07-08 15:24:33,887 - app - INFO - Employee created successfully with id: 25

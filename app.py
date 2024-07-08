@@ -1,11 +1,7 @@
 from flask import Flask
-# from flask_sqlalchemy import SQLAlchemy
 import logging
 from flask_migrate import Migrate
 from db import db
-# Initialize Flask application
-
-
 
 # Set up logging
 logger = logging.getLogger(__name__)

@@ -1,5 +1,4 @@
-from Employee.models import Employees
-def test_new_employee():
-    employee = Employees(name="Akshith", department = "software")
-    assert employee.name == "Akshith"
-    assert employee.department == "software"
+
+def test_new_employee(new_employee):
+    assert new_employee.name == "test"
+    assert new_employee.department == "IT"
