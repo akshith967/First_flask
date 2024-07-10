@@ -19,7 +19,7 @@ def get_projects():
 def get_employees(project_id):
     try:
         from .models import Projects
-        from Employee.models import Employees
+        from Employee import Employees
         from m1 import mqtt_client
         project = Projects.query.get(project_id)
         if not project:
@@ -69,4 +69,4 @@ def delete_employee(project_id):
         mqtt_client.publish("projects/delete", str(project_id))
         return jsonify({'message': 'Published for deletion'}), 200
     except Exception as e:
-        return jsonify({'message': 'Failed to delete employee', 'error': str(e)}), 400
+        return jsonify({'message': 'Failed to delete project', 'error': str(e)}), 400

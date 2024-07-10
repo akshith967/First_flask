@@ -1,9 +1,10 @@
 import paho.mqtt.client as mqtt
-import json
 
 mqtt_client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1,"T")
 from Employee import methods as e_methods
 from Projects import methods as p_methods
+
+
 def on_publish(client, userdata, message):
     from app import logger
     logger.info(message.payload.decode())
@@ -30,7 +31,6 @@ def on_connect(client, userdata, flags, rc):
         logger.error("Connection failed with code %d", rc)
 
 mqtt_client.on_connect = on_connect
-
 mqtt_client.connect("127.0.0.1", 1883, 60)
 mqtt_client.loop_start()
 

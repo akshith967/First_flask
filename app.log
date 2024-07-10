@@ -513,3 +513,88 @@ with app.app_context(). See the documentation for more information.
 2024-07-08 15:24:33,813 - app - INFO - Connected to broker
 2024-07-08 15:24:33,819 - app - INFO - Creating a new employee
 2024-07-08 15:24:33,887 - app - INFO - Employee created successfully with id: 25
+2024-07-09 10:57:23,741 - app - INFO - Connected to broker
+2024-07-09 10:57:23,747 - app - INFO - Creating a new employee
+2024-07-09 10:57:32,675 - app - INFO - Connected to broker
+2024-07-09 10:57:32,682 - app - INFO - Creating a new employee
+2024-07-09 10:57:32,748 - app - INFO - Employee created successfully with id: 27
+2024-07-09 11:00:48,142 - app - INFO - Connected to broker
+2024-07-09 11:00:48,149 - app - INFO - Creating a new employee
+2024-07-09 11:00:48,209 - app - INFO - Employee created successfully with id: 29
+2024-07-09 11:12:20,457 - app - INFO - Connected to broker
+2024-07-09 11:12:20,463 - app - INFO - Creating a new employee
+2024-07-09 11:12:20,518 - app - INFO - Employee created successfully with id: 30
+2024-07-09 11:26:44,057 - app - INFO - Connected to broker
+2024-07-09 11:26:44,065 - app - INFO - Creating a new employee
+2024-07-09 11:26:44,122 - app - ERROR - Failed to create employee: (mysql.connector.errors.ProgrammingError) 1146 (42S02): Table 'company.employees' doesn't exist
+[SQL: INSERT INTO employees (name, department, project_id) VALUES (%(name)s, %(department)s, %(project_id)s)]
+[parameters: {'name': 'test', 'department': 'test', 'project_id': None}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-09 11:26:44,122 - app - INFO - Creation of employee failed
+2024-07-09 11:31:35,500 - app - INFO - Connected to broker
+2024-07-09 11:31:35,508 - app - INFO - Creating a new employee
+2024-07-09 11:31:35,561 - app - ERROR - Failed to create employee: (mysql.connector.errors.ProgrammingError) 1146 (42S02): Table 'company.employees' doesn't exist
+[SQL: INSERT INTO employees (name, department, project_id) VALUES (%(name)s, %(department)s, %(project_id)s)]
+[parameters: {'name': 'test', 'department': 'test', 'project_id': None}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-09 11:31:35,561 - app - INFO - Creation of employee failed
+2024-07-09 11:32:49,184 - app - INFO - Connected to broker
+2024-07-09 11:33:28,424 - app - INFO - Connected to broker
+2024-07-09 11:33:28,438 - app - INFO - Creating a new employee
+2024-07-09 11:33:28,479 - app - ERROR - Failed to create employee: (mysql.connector.errors.ProgrammingError) 1146 (42S02): Table 'company.employees' doesn't exist
+[SQL: INSERT INTO employees (name, department, project_id) VALUES (%(name)s, %(department)s, %(project_id)s)]
+[parameters: {'name': 'Charlie', 'department': 'Designer', 'project_id': None}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-07-09 11:40:28,171 - app - INFO - Connected to broker
+2024-07-09 11:45:14,821 - app - INFO - Connected to broker
+2024-07-09 11:45:47,365 - app - INFO - Connected to broker
+2024-07-09 11:45:47,383 - app - INFO - Creating a new employee
+2024-07-09 11:46:42,038 - app - INFO - Connected to broker
+2024-07-09 11:46:42,056 - app - INFO - Creating a new employee
+2024-07-09 11:47:58,503 - app - INFO - Connected to broker
+2024-07-09 11:47:58,520 - app - INFO - Creating a new employee
+2024-07-09 11:48:16,665 - app - INFO - Connected to broker
+2024-07-09 11:48:16,684 - app - INFO - Creating a new employee
+2024-07-09 11:51:48,636 - app - INFO - Connected to broker
+2024-07-09 11:51:48,656 - app - INFO - Creating a new employee
+2024-07-09 11:51:48,659 - app - INFO - Fetched all the employees
+2024-07-09 11:52:26,404 - app - INFO - Connected to broker
+2024-07-09 11:52:26,425 - app - INFO - Creating a new employee
+2024-07-09 11:52:26,427 - app - ERROR - Failed to create employee: (sqlite3.OperationalError) no such table: employees
+[SQL: INSERT INTO employees (name, department, project_id) VALUES (?, ?, ?)]
+[parameters: ('Charlie', 'Designer', None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-09 11:52:26,428 - app - INFO - Fetched all the employees
+2024-07-09 11:52:41,202 - app - INFO - Connected to broker
+2024-07-09 11:52:41,220 - app - INFO - Creating a new employee
+2024-07-09 11:52:41,223 - app - INFO - Fetched all the employees
+2024-07-09 11:54:06,931 - app - INFO - Connected to broker
+2024-07-09 11:54:06,950 - app - INFO - Creating a new employee
+2024-07-09 11:54:06,952 - app - ERROR - Failed to create employee: (sqlite3.OperationalError) no such table: employees
+[SQL: INSERT INTO employees (name, department, project_id) VALUES (?, ?, ?)]
+[parameters: ('Charlie', 'Designer', None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-09 11:54:06,952 - app - INFO - Fetched all the employees
+2024-07-09 11:54:06,952 - app - INFO - Creation of employee failed
+2024-07-09 11:54:53,133 - app - INFO - Connected to broker
+2024-07-09 11:54:53,153 - app - INFO - Creating a new employee
+2024-07-09 11:54:53,155 - app - ERROR - Failed to create employee: (sqlite3.OperationalError) no such table: employees
+[SQL: INSERT INTO employees (name, department, project_id) VALUES (?, ?, ?)]
+[parameters: ('Charlie', 'Designer', None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-09 11:54:53,155 - app - INFO - Fetched all the employees
+2024-07-09 11:58:31,263 - app - INFO - Connected to broker
+2024-07-09 11:58:31,281 - app - INFO - Creating a new employee
+2024-07-09 11:58:31,282 - app - ERROR - Failed to create employee: (sqlite3.OperationalError) no such table: employees
+[SQL: INSERT INTO employees (name, department, project_id) VALUES (?, ?, ?)]
+[parameters: ('Charlie', 'Designer', None)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-09 11:58:31,283 - app - INFO - Fetched all the employees
+2024-07-09 16:36:41,951 - app - INFO - Connected to broker
+2024-07-09 16:36:41,951 - app - INFO - Connected to broker
+2024-07-09 16:37:19,950 - app - INFO - Connected to broker
+2024-07-09 16:37:19,950 - app - INFO - Connected to broker
+2024-07-09 16:37:19,951 - app - INFO - Connected to broker
+2024-07-09 16:37:19,951 - app - INFO - Connected to broker
+2024-07-09 16:37:19,981 - app - INFO - Creating a new employee
+2024-07-09 16:37:19,981 - app - INFO - Creating a new employee
