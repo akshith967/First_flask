@@ -20,7 +20,8 @@ def update_table(client, userdata, message):
     try:
         with app.app_context():
             data = json.loads(message.payload.decode())
-            project = Projects.query.get_or_404(data['p_id'])
+            # project = Projects.query.get_or_404(data['p_id'])
+            project = db.session.query(Projects).filter_by(id=data["p_id"]).one()
             if data['project'].get('name') != None:
                 project.name = data['project'].get('name')
             if data['project'].get('status') != None:
@@ -37,7 +38,8 @@ def delete_record(client, userdata, message):
     try:
         with app.app_context():
             project_id = int(message.payload.decode())
-            project = Projects.query.get_or_404(project_id)
+            # project = Projects.query.get_or_404(project_id)
+            project = db.session.query(Projects).filter_by(id=project_id).one()
             db.session.delete(project)
             db.session.commit()
             client.publish("display_message", f"Employee deleted successfully with id: {project_id}")

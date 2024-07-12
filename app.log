@@ -598,3 +598,186 @@ with app.app_context(). See the documentation for more information.
 2024-07-09 16:37:19,951 - app - INFO - Connected to broker
 2024-07-09 16:37:19,981 - app - INFO - Creating a new employee
 2024-07-09 16:37:19,981 - app - INFO - Creating a new employee
+2024-07-11 10:44:08,532 - app - INFO - Connected to broker
+2024-07-11 10:44:16,810 - app - INFO - Connected to broker
+2024-07-11 10:46:51,968 - app - INFO - Connected to broker
+2024-07-11 10:48:49,383 - app - INFO - Connected to broker
+2024-07-11 10:51:40,027 - app - INFO - Connected to broker
+2024-07-11 10:54:44,616 - app - INFO - Connected to broker
+2024-07-11 10:55:39,315 - app - INFO - Connected to broker
+2024-07-11 10:57:01,751 - app - INFO - Connected to broker
+2024-07-11 10:59:42,676 - app - INFO - Connected to broker
+2024-07-11 11:00:37,252 - app - INFO - Connected to broker
+2024-07-11 11:08:29,069 - app - INFO - Connected to broker
+2024-07-11 11:10:11,223 - app - INFO - Connected to broker
+2024-07-11 11:12:00,017 - app - INFO - Connected to broker
+2024-07-11 11:12:22,346 - app - INFO - Connected to broker
+2024-07-11 11:12:31,021 - app - INFO - Connected to broker
+2024-07-11 11:12:55,402 - app - INFO - Connected to broker
+2024-07-11 11:13:46,324 - app - INFO - Connected to broker
+2024-07-11 11:16:48,173 - app - INFO - Connected to broker
+2024-07-11 11:19:00,874 - app - INFO - Connected to broker
+2024-07-11 11:19:44,771 - app - INFO - Connected to broker
+2024-07-11 11:20:57,469 - app - INFO - Connected to broker
+2024-07-11 11:22:38,695 - app - INFO - Connected to broker
+2024-07-11 11:24:22,901 - app - INFO - Connected to broker
+2024-07-11 11:25:15,247 - app - INFO - Connected to broker
+2024-07-11 11:25:54,542 - app - INFO - Connected to broker
+2024-07-11 11:29:57,677 - app - INFO - Connected to broker
+2024-07-11 11:32:56,992 - app - INFO - Connected to broker
+2024-07-11 11:33:31,663 - app - INFO - Connected to broker
+2024-07-11 11:34:37,277 - app - INFO - Connected to broker
+2024-07-11 17:00:00,182 - app - INFO - Connected to broker
+2024-07-11 17:00:56,387 - app - INFO - Connected to broker
+2024-07-11 17:03:36,452 - app - INFO - Connected to broker
+2024-07-11 17:15:27,277 - app - INFO - Connected to broker
+2024-07-11 17:18:13,422 - app - INFO - Connected to broker
+2024-07-11 17:26:06,698 - app - INFO - Connected to broker
+2024-07-11 17:28:24,556 - app - INFO - Connected to broker
+2024-07-11 17:33:50,394 - app - INFO - Connected to broker
+2024-07-11 17:37:38,448 - app - INFO - Connected to broker
+2024-07-11 17:40:45,433 - app - INFO - Connected to broker
+2024-07-11 17:42:37,465 - app - INFO - Connected to broker
+2024-07-11 17:43:26,814 - app - INFO - Connected to broker
+2024-07-11 17:44:28,860 - app - INFO - Connected to broker
+2024-07-11 17:47:45,646 - app - INFO - Connected to broker
+2024-07-11 17:48:45,030 - app - INFO - Connected to broker
+2024-07-11 17:49:29,562 - app - INFO - Connected to broker
+2024-07-11 17:50:13,522 - app - INFO - Connected to broker
+2024-07-11 17:50:42,405 - app - INFO - Connected to broker
+2024-07-11 17:52:28,351 - app - INFO - Connected to broker
+2024-07-11 17:52:57,779 - app - INFO - Connected to broker
+2024-07-11 17:53:44,382 - app - INFO - Connected to broker
+2024-07-11 17:55:21,119 - app - INFO - Connected to broker
+2024-07-11 17:57:29,509 - app - INFO - Connected to broker
+2024-07-11 17:58:07,967 - app - INFO - Connected to broker
+2024-07-11 18:01:28,603 - app - INFO - Connected to broker
+2024-07-11 18:02:23,739 - app - INFO - Connected to broker
+2024-07-11 18:03:07,848 - app - INFO - Connected to broker
+2024-07-12 10:09:57,270 - app - INFO - Connected to broker
+2024-07-12 10:11:48,239 - app - INFO - Connected to broker
+2024-07-12 10:22:34,678 - app - INFO - Connected to broker
+2024-07-12 10:23:01,631 - app - INFO - Connected to broker
+2024-07-12 10:26:52,854 - app - INFO - Connected to broker
+2024-07-12 10:31:01,844 - app - INFO - Connected to broker
+2024-07-12 10:31:35,813 - app - INFO - Connected to broker
+2024-07-12 10:33:50,951 - app - INFO - Connected to broker
+2024-07-12 10:38:59,633 - app - INFO - Connected to broker
+2024-07-12 10:40:06,680 - app - INFO - Connected to broker
+2024-07-12 10:46:39,703 - app - INFO - Connected to broker
+2024-07-12 11:11:58,621 - app - INFO - Connected to broker
+2024-07-12 11:39:13,386 - app - INFO - Connected to broker
+2024-07-12 11:40:01,728 - app - INFO - Connected to broker
+2024-07-12 11:55:13,289 - app - INFO - Connected to broker
+2024-07-12 11:56:36,916 - app - INFO - Connected to broker
+2024-07-12 11:59:47,250 - app - INFO - Connected to broker
+2024-07-12 12:02:25,623 - app - INFO - Connected to broker
+2024-07-12 12:02:48,396 - app - INFO - Connected to broker
+2024-07-12 12:03:40,964 - app - INFO - Connected to broker
+2024-07-12 12:04:23,997 - app - INFO - Connected to broker
+2024-07-12 12:05:26,110 - app - INFO - Connected to broker
+2024-07-12 12:07:11,896 - app - INFO - Connected to broker
+2024-07-12 12:09:00,428 - app - INFO - Connected to broker
+2024-07-12 12:09:24,416 - app - INFO - Connected to broker
+2024-07-12 12:11:16,225 - app - INFO - Connected to broker
+2024-07-12 12:12:24,163 - app - INFO - Connected to broker
+2024-07-12 12:13:25,628 - app - INFO - Connected to broker
+2024-07-12 12:18:24,529 - app - INFO - Connected to broker
+2024-07-12 12:18:50,258 - app - INFO - Connected to broker
+2024-07-12 12:19:35,353 - app - INFO - Connected to broker
+2024-07-12 12:20:27,237 - app - INFO - Connected to broker
+2024-07-12 12:21:15,208 - app - INFO - Connected to broker
+2024-07-12 12:21:40,757 - app - INFO - Connected to broker
+2024-07-12 12:23:27,402 - app - INFO - Connected to broker
+2024-07-12 12:24:08,619 - app - INFO - Connected to broker
+2024-07-12 12:27:00,828 - app - INFO - Connected to broker
+2024-07-12 12:44:27,179 - app - INFO - Connected to broker
+2024-07-12 12:45:03,917 - app - INFO - Connected to broker
+2024-07-12 12:46:50,398 - app - INFO - Connected to broker
+2024-07-12 12:46:50,431 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 12:57:09,187 - app - INFO - Connected to broker
+2024-07-12 12:57:09,215 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 12:59:30,221 - app - INFO - Connected to broker
+2024-07-12 12:59:30,252 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 14:38:20,229 - app - INFO - Connected to broker
+2024-07-12 14:38:20,258 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 14:42:49,971 - app - INFO - Connected to broker
+2024-07-12 14:42:49,999 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 14:43:27,589 - app - INFO - Connected to broker
+2024-07-12 14:43:27,619 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 14:56:11,468 - app - INFO - Connected to broker
+2024-07-12 15:19:45,336 - app - INFO - Connected to broker
+2024-07-12 15:23:37,501 - app - INFO - Connected to broker
+2024-07-12 15:41:37,851 - app - INFO - Connected to broker
+2024-07-12 15:41:37,879 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 15:58:45,610 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 15:58:45,610 - app - INFO - Connected to broker
+2024-07-12 16:36:55,386 - app - INFO - Connected to broker
+2024-07-12 16:37:34,332 - app - INFO - Connected to broker
+2024-07-12 16:38:07,015 - app - INFO - Connected to broker
+2024-07-12 16:38:07,058 - app - INFO - Creating a new employee
+2024-07-12 16:38:07,062 - app - INFO - Updating an employee with id 1
+2024-07-12 16:38:07,063 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-07-12 16:38:07,064 - app - INFO - Deleting an employee with id 1
+2024-07-12 16:38:07,064 - app - ERROR - Failed to delete employee: No row was found when one was required
+2024-07-12 16:38:07,065 - app - INFO - Creating a new project
+2024-07-12 16:38:07,068 - app - INFO - Updating an employee with id 1
+2024-07-12 16:38:07,070 - app - INFO - Deleting an project with id 1
+2024-07-12 16:38:07,074 - app - INFO - Creating a new employee
+2024-07-12 16:38:07,076 - app - INFO - Creation of employee failed
+2024-07-12 16:38:07,077 - app - INFO - Updation of employee failed with id: 1
+2024-07-12 16:38:07,077 - app - INFO - Deletion of employee failed with id: 1
+2024-07-12 16:38:07,077 - app - INFO - Project created successfully with id: 2
+2024-07-12 16:38:07,077 - app - INFO - Project updated successfully with id: 1
+2024-07-12 16:38:07,077 - app - INFO - Employee deleted successfully with id: 1
+2024-07-12 16:38:07,118 - app - INFO - Creation of employee failed
+2024-07-12 16:40:33,641 - app - INFO - Connected to broker
+2024-07-12 16:40:33,678 - app - INFO - Creating a new employee
+2024-07-12 16:40:33,681 - app - INFO - Updating an employee with id 1
+2024-07-12 16:40:33,683 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-07-12 16:40:33,683 - app - INFO - Deleting an employee with id 1
+2024-07-12 16:40:33,684 - app - ERROR - Failed to delete employee: No row was found when one was required
+2024-07-12 16:40:33,684 - app - INFO - Creating a new project
+2024-07-12 16:40:33,689 - app - INFO - Updating an employee with id 1
+2024-07-12 16:40:33,690 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-12 16:40:33,690 - app - INFO - Deleting an project with id 1
+2024-07-12 16:40:33,691 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-12 16:40:33,691 - app - INFO - Creating a new employee
+2024-07-12 16:40:33,693 - app - INFO - Creation of employee failed
+2024-07-12 16:40:33,694 - app - INFO - Updation of employee failed with id: 1
+2024-07-12 16:40:33,694 - app - INFO - Deletion of employee failed with id: 1
+2024-07-12 16:40:33,694 - app - INFO - Project created successfully with id: 3
+2024-07-12 16:40:33,694 - app - INFO - Updation of project failed with id: 1
+2024-07-12 16:40:33,694 - app - INFO - Deletion of project failed with id: 1
+2024-07-12 16:40:33,738 - app - INFO - Creation of employee failed
+2024-07-12 16:47:27,714 - app - INFO - Connected to broker
+2024-07-12 16:47:27,730 - app - INFO - Creating a new employee
+2024-07-12 16:47:27,733 - app - INFO - Updating an employee with id 1
+2024-07-12 16:47:27,734 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-07-12 16:47:27,734 - app - INFO - Deleting an employee with id 1
+2024-07-12 16:47:27,736 - app - ERROR - Failed to delete employee: No row was found when one was required
+2024-07-12 16:47:27,736 - app - INFO - Creating a new project
+2024-07-12 16:47:27,741 - app - INFO - Updating an employee with id 1
+2024-07-12 16:47:27,742 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-12 16:47:27,742 - app - INFO - Deleting an project with id 1
+2024-07-12 16:47:27,743 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-12 16:47:27,743 - app - INFO - Creating a new employee
+2024-07-12 16:47:27,746 - app - INFO - Creation of employee failed
+2024-07-12 16:47:27,746 - app - INFO - Updation of employee failed with id: 1
+2024-07-12 16:47:27,746 - app - INFO - Deletion of employee failed with id: 1
+2024-07-12 16:47:27,746 - app - INFO - Project created successfully with id: 4
+2024-07-12 16:47:27,746 - app - INFO - Updation of project failed with id: 1
+2024-07-12 16:47:27,746 - app - INFO - Deletion of project failed with id: 1
+2024-07-12 16:47:27,790 - app - INFO - Creation of employee failed
+2024-07-12 16:50:02,592 - app - INFO - Connected to broker
+2024-07-12 16:50:02,604 - app - INFO - Creating a new employee
+2024-07-12 16:50:02,650 - app - INFO - Creation of employee failed
+2024-07-12 17:08:52,559 - app - ERROR - Failed to delete employee: No row was found when one was required
+2024-07-12 17:09:17,057 - app - ERROR - Failed to delete employee: No row was found when one was required
+2024-07-12 17:13:34,693 - app - ERROR - Failed to delete project: 'Session' object is not callable
+2024-07-12 17:13:34,740 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 17:13:34,795 - app - ERROR - Failed to delete project: 'Session' object is not callable
+2024-07-12 17:17:22,160 - app - ERROR - Failed to update employee: 'Session' object is not callable
+2024-07-12 17:17:22,252 - app - ERROR - Failed to delete project: 'Session' object is not callable
+2024-07-12 17:19:05,515 - app - ERROR - Failed to update employee: 'project'
+2024-07-12 17:19:47,643 - app - ERROR - Failed to update employee: 'project'

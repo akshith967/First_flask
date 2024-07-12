@@ -1,18 +1,19 @@
 import json
 
 def insert_table(client, userdata, message):
-    from app import app, db, logger
     from .models import Employees
+    from app import app, logger, db
     try:
         with app.app_context():
             data = json.loads(message.payload.decode())
             new_employee = Employees(name=data['name'], department=data['department'])
             db.session.add(new_employee)
             db.session.commit()
-            client.publish("display_message", f"Employee created successfully with id: {new_employee.id}")
+        client.publish("display_message", f"Employee created successfully with id: {new_employee.id}")
     except Exception as e:
         client.publish("display_message", "Creation of employee failed")
-        logger.error(f"Failed to create employee: {e}")
+        # logger.error(f"Failed to create employee: {e}")
+        print(e)
 
 def update_table(client, userdata, message):
     from app import app, db, logger
@@ -20,7 +21,7 @@ def update_table(client, userdata, message):
     try:
         with app.app_context():
             data = json.loads(message.payload.decode())
-            employee = Employees.query.get_or_404(data['e_id'])
+            employee = db.session.query(Employees).filter_by(id=data["e_id"]).one()
             if(data['user'].get('name') != None):
                 employee.name = data['user'].get('name')
             if (data['user'].get('department') != None):
@@ -34,14 +35,14 @@ def update_table(client, userdata, message):
     except Exception as e:
         client.publish("display_message", f"Updation of employee failed with id: {data['e_id']}")
         logger.error(f"Failed to update employee: {e}")
-
+        print(e)
 def delete_record(client, userdata, message):
     from app import app, db, logger
     from Employee.models import Employees
     try:
         with app.app_context():
             employee_id = int(message.payload.decode())
-            employee = Employees.query.get_or_404(employee_id)
+            employee = db.session.query(Employees).filter_by(id=employee_id).one()
             db.session.delete(employee)
             db.session.commit()
             client.publish("display_message", f"Employee deleted successfully with id: {employee_id}")
