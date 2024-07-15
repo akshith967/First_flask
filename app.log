@@ -781,3 +781,5 @@ with app.app_context(). See the documentation for more information.
 2024-07-12 17:17:22,252 - app - ERROR - Failed to delete project: 'Session' object is not callable
 2024-07-12 17:19:05,515 - app - ERROR - Failed to update employee: 'project'
 2024-07-12 17:19:47,643 - app - ERROR - Failed to update employee: 'project'
+2024-07-12 17:59:04,181 - app - INFO - Connected to broker
+2024-07-12 17:59:12,334 - app - INFO - Connected to broker
