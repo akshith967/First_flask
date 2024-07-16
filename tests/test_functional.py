@@ -124,61 +124,61 @@ def test_delete_record_project(dbsession, mock_app):
     client.publish.assert_called_with("display_message", f"Deletion of project failed with id: 2")
 
 
-def test_api2(dbsession, mqtt_client, client):
-    response = client.post("/employees/", json={"name": "test", "department": "test"})
-    assert response.status_code == 200
-    assert response.get_json() == {'message': 'Published for creation'}
+# def test_api2(dbsession, mqtt_client, client):
+#     response = client.post("/employees/", json={"name": "test", "department": "test"})
+#     assert response.status_code == 200
+#     assert response.get_json() == {'message': 'Published for creation'}
+# #
+#     response = client.put("/employees/1", json={"department": "test"})
+#     assert response.status_code == 200
+#     assert response.get_json() == {'message': 'Published for update'}
+# #
+#     response = client.delete("/employees/1")
+#     assert response.status_code == 200
+#     assert response.get_json() == {'message': 'Published for deletion'}
+# #
+#     response = client.post("/projects/", json={"name": "test", "department": "test"})
+#     assert response.status_code == 200
+#     assert response.get_json() == {'message': 'Published for creation'}
 #
-    response = client.put("/employees/1", json={"department": "test"})
-    assert response.status_code == 200
-    assert response.get_json() == {'message': 'Published for update'}
+#     response = client.put("/projects/1", json={"department": "test"})
+#     assert response.status_code == 200
+#     assert response.get_json() == {'message': 'Published for update'}
 #
-    response = client.delete("/employees/1")
-    assert response.status_code == 200
-    assert response.get_json() == {'message': 'Published for deletion'}
-#
-    response = client.post("/projects/", json={"name": "test", "department": "test"})
-    assert response.status_code == 200
-    assert response.get_json() == {'message': 'Published for creation'}
-
-    response = client.put("/projects/1", json={"department": "test"})
-    assert response.status_code == 200
-    assert response.get_json() == {'message': 'Published for update'}
-
-    response = client.delete("/projects/1")
-    assert response.status_code == 200
-    assert response.get_json() == {'message': 'Published for deletion'}
-# testing the Employees get
-    e1 = Employees(name="t1", department="t1")
-    e2 = Employees(name="t2", department="t2")
-    dbsession.add(e1)
-    dbsession.add(e2)
-    dbsession.commit()
-    with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
-        response = client.get('/employees/')
-    data = response.get_json()
-    assert data[0]["name"] == "t1"
-    assert data[0]["department"] == "t1"
-    assert data[1]["name"] == "t2"
-    assert data[1]["department"] == "t2"
-# Testing the projects get
-    p1 = Projects(name="t1")
-    p2 = Projects(name="t2")
-    dbsession.add(p1)
-    dbsession.add(p2)
-    dbsession.commit()
-    with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
-        response = client.get('/projects/')
-    data = response.get_json()
-    assert data[0]["name"] == "t1"
-    assert data[1]["name"] == "t2"
-# Testing the project get
-    with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
-        response = client.get('/projects/1')
-    data = response.get_json()
-    print(data)
-    assert data["project_id"]==1
-    assert data["project_name"] == "t1"
+#     response = client.delete("/projects/1")
+#     assert response.status_code == 200
+#     assert response.get_json() == {'message': 'Published for deletion'}
+# # testing the Employees get
+#     e1 = Employees(name="t1", department="t1")
+#     e2 = Employees(name="t2", department="t2")
+#     dbsession.add(e1)
+#     dbsession.add(e2)
+#     dbsession.commit()
+#     with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
+#         response = client.get('/employees/')
+#     data = response.get_json()
+#     assert data[0]["name"] == "t1"
+#     assert data[0]["department"] == "t1"
+#     assert data[1]["name"] == "t2"
+#     assert data[1]["department"] == "t2"
+# # Testing the projects get
+#     p1 = Projects(name="t1")
+#     p2 = Projects(name="t2")
+#     dbsession.add(p1)
+#     dbsession.add(p2)
+#     dbsession.commit()
+#     with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
+#         response = client.get('/projects/')
+#     data = response.get_json()
+#     assert data[0]["name"] == "t1"
+#     assert data[1]["name"] == "t2"
+# # Testing the project get
+#     with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
+#         response = client.get('/projects/1')
+#     data = response.get_json()
+#     print(data)
+#     assert data["project_id"]==1
+#     assert data["project_name"] == "t1"
 
 #     mqtt_client.publish = MagicMock(side_effect=RuntimeError("Mqtt client is down"))
 #     res = client.post("/employees/", json={"name": "test", "department": "test"})

@@ -34,7 +34,7 @@ def update_table(client, userdata, message):
             client.publish("display_message", f"Employee updated successfully with id: {data['e_id']}")
     except Exception as e:
         client.publish("display_message", f"Updation of employee failed with id: {data['e_id']}")
-        logger.error(f"Failed to update employee: {e}")
+        # logger.error(f"Failed to update employee: {e}")
         print(e)
 def delete_record(client, userdata, message):
     from app import app, db, logger
@@ -48,4 +48,4 @@ def delete_record(client, userdata, message):
             client.publish("display_message", f"Employee deleted successfully with id: {employee_id}")
     except Exception as e:
         client.publish("display_message", f"Deletion of employee failed with id: {employee_id}")
-        logger.error(f"Failed to delete employee: {e}")
+        # logger.error(f"Failed to delete employee: {e}")
