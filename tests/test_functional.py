@@ -1,13 +1,102 @@
-import json
 
-import app
-from Employee.models import Employees
-from Projects.models import Projects
-from unittest.mock import patch, MagicMock
-import Employee.methods as e_methods
-import Projects.methods as p_methods
 
+def test_api2(client,dbsession):
+    import pytest
+    from unittest.mock import patch, MagicMock
+    import json
+    from Employee.models import Employees
+    from Projects.models import Projects
+
+    response = client[0].post("/employees/", json={"name": "test", "department": "test"})
+    assert response.status_code == 200
+    assert response.get_json() == {'message': 'Published for creation'}
+#
+    response = client[0].put("/employees/1", json={"department": "test"})
+    assert response.status_code == 200
+    assert response.get_json() == {'message': 'Published for update'}
+#
+    response = client[0].delete("/employees/1")
+    assert response.status_code == 200
+    assert response.get_json() == {'message': 'Published for deletion'}
+#
+    response = client[0].post("/projects/", json={"name": "test", "department": "test"})
+    assert response.status_code == 200
+    assert response.get_json() == {'message': 'Published for creation'}
+
+    response = client[0].put("/projects/1", json={"department": "test"})
+    assert response.status_code == 200
+    assert response.get_json() == {'message': 'Published for update'}
+
+    response = client[0].delete("/projects/1")
+    assert response.status_code == 200
+    assert response.get_json() == {'message': 'Published for deletion'}
+# # testing the Employees get
+    e1 = Employees(name="t1", department="t1")
+    e2 = Employees(name="t2", department="t2")
+    dbsession.add(e1)
+    dbsession.add(e2)
+    dbsession.commit()
+    with patch('app.db.session', new=dbsession):
+        response = client[0].get('/employees/')
+    data = response.get_json()
+    assert data[0]["name"] == "t1"
+    assert data[0]["department"] == "t1"
+    assert data[1]["name"] == "t2"
+    assert data[1]["department"] == "t2"
+# Testing the projects get
+    p1 = Projects(name="t1")
+    p2 = Projects(name="t2")
+    dbsession.add(p1)
+    dbsession.add(p2)
+    dbsession.commit()
+    with patch('app.db.session', new=dbsession):
+        response = client[0].get('/projects/')
+    data = response.get_json()
+    assert data[0]["name"] == "t1"
+    assert data[1]["name"] == "t2"
+# Testing the project get
+    with patch('app.db.session', new=dbsession):
+        response = client[0].get('/projects/1')
+    data = response.get_json()
+    print(data)
+    assert data["project_id"]==1
+    assert data["project_name"] == "t1"
+
+    client[1].publish.side_effect = RuntimeError("Mqtt client is down")
+    res = client[0].post("/employees/", json={"name": "test", "department": "test"})
+    assert res.status_code == 400
+    obj = json.loads(res.data)
+    assert obj['message'] == "Failed to create employee"
+    res = client[0].put("/employees/1", json={"department": "test"})
+    assert res.status_code == 400
+    obj = json.loads(res.data)
+    assert obj['message'] == 'Failed to update employee'
+    #
+    response = client[0].delete("/employees/1")
+    assert response.status_code == 400
+    obj = json.loads(response.data)
+    assert obj['message'] == "Failed to delete employee"
+
+    response = client[0].post("/projects/", json={"name": "test"})
+    assert response.status_code == 400
+    obj = json.loads(response.data)
+    assert obj['message'] == 'Failed to create project'
+
+    response = client[0].put("/projects/1", json={"name": "test"})
+    assert response.status_code == 400
+    obj = json.loads(response.data)
+    assert obj['message'] == 'Failed to update project'
+    response = client[0].delete("/projects/1")
+    assert response.status_code == 400
+    obj = json.loads(response.data)
+    assert obj['message'] == 'Failed to delete project'
 def test_insert_table(dbsession,mock_app):
+    import Employee.methods as e_methods
+    import Projects.methods as p_methods
+    from Employee.models import Employees
+    from Projects.models import Projects
+    from unittest.mock import patch, MagicMock
+    import json
     client = MagicMock()
     message = MagicMock()
     message.payload.decode.return_value = json.dumps({'name': 'Alice', 'department': 'Engineering'})
@@ -22,7 +111,16 @@ def test_insert_table(dbsession,mock_app):
         e_methods.insert_table(client, None, message)
     client.publish.assert_called_with("display_message", f"Creation of employee failed")
 
+
+
+
 def test_update_table(dbsession,mock_app):
+    import Employee.methods as e_methods
+    import Projects.methods as p_methods
+    from Employee.models import Employees
+    from Projects.models import Projects
+    from unittest.mock import patch, MagicMock
+    import json
     client = MagicMock()
     message = MagicMock()
     # Insert a sample employee to update
@@ -43,12 +141,18 @@ def test_update_table(dbsession,mock_app):
         'e_id': 2,
         'user': {'name': 'Bob Updated', 'department': 'Finance','project_id': 1}
     })
-
+#
     with patch('app.db.session', new = dbsession), patch('app.app', new=mock_app):
         e_methods.update_table(client, None, message)
     client.publish.assert_called_with("display_message", f"Updation of employee failed with id: 2")
-
+#
 def test_delete_record(dbsession, mock_app):
+    import Employee.methods as e_methods
+    import Projects.methods as p_methods
+    from Employee.models import Employees
+    from Projects.models import Projects
+    from unittest.mock import patch, MagicMock
+    import json
     client = MagicMock()
     message = MagicMock()
     # Insert a sample employee to delete
@@ -66,8 +170,14 @@ def test_delete_record(dbsession, mock_app):
     with patch('app.db.session', new = dbsession), patch('app.app', new=mock_app):
         e_methods.delete_record(client, None, message)
     client.publish.assert_called_with("display_message", f"Deletion of employee failed with id: 2")
-
+#
 def test_insert_table_project(dbsession,mock_app):
+    import Employee.methods as e_methods
+    import Projects.methods as p_methods
+    from Employee.models import Employees
+    from Projects.models import Projects
+    from unittest.mock import patch, MagicMock
+    import json
     client = MagicMock()
     message = MagicMock()
     message.payload.decode.return_value = json.dumps({'name': 'Project'})
@@ -80,8 +190,14 @@ def test_insert_table_project(dbsession,mock_app):
     with patch('app.db.session', new = dbsession), patch('app.app', return_value=mock_app):
         p_methods.insert_table(client, None, message)
     client.publish.assert_called_with("display_message", f"Creation of Project failed")
-
+#
 def test_update_table_project(dbsession,mock_app):
+    import Employee.methods as e_methods
+    import Projects.methods as p_methods
+    from Employee.models import Employees
+    from Projects.models import Projects
+    from unittest.mock import patch, MagicMock
+    import json
     client = MagicMock()
     message = MagicMock()
     # Insert a sample employee to update
@@ -106,6 +222,12 @@ def test_update_table_project(dbsession,mock_app):
     client.publish.assert_called_with("display_message", f"Updation of project failed with id: 2")
 
 def test_delete_record_project(dbsession, mock_app):
+    import Employee.methods as e_methods
+    import Projects.methods as p_methods
+    from Employee.models import Employees
+    from Projects.models import Projects
+    from unittest.mock import patch, MagicMock
+    import json
     client = MagicMock()
     message = MagicMock()
     # Insert a sample employee to delete
@@ -122,90 +244,3 @@ def test_delete_record_project(dbsession, mock_app):
     with patch('app.db.session', new = dbsession), patch('app.app', new=mock_app):
         p_methods.delete_record(client, None, message)
     client.publish.assert_called_with("display_message", f"Deletion of project failed with id: 2")
-
-
-# def test_api2(dbsession, mqtt_client, client):
-#     response = client.post("/employees/", json={"name": "test", "department": "test"})
-#     assert response.status_code == 200
-#     assert response.get_json() == {'message': 'Published for creation'}
-# #
-#     response = client.put("/employees/1", json={"department": "test"})
-#     assert response.status_code == 200
-#     assert response.get_json() == {'message': 'Published for update'}
-# #
-#     response = client.delete("/employees/1")
-#     assert response.status_code == 200
-#     assert response.get_json() == {'message': 'Published for deletion'}
-# #
-#     response = client.post("/projects/", json={"name": "test", "department": "test"})
-#     assert response.status_code == 200
-#     assert response.get_json() == {'message': 'Published for creation'}
-#
-#     response = client.put("/projects/1", json={"department": "test"})
-#     assert response.status_code == 200
-#     assert response.get_json() == {'message': 'Published for update'}
-#
-#     response = client.delete("/projects/1")
-#     assert response.status_code == 200
-#     assert response.get_json() == {'message': 'Published for deletion'}
-# # testing the Employees get
-#     e1 = Employees(name="t1", department="t1")
-#     e2 = Employees(name="t2", department="t2")
-#     dbsession.add(e1)
-#     dbsession.add(e2)
-#     dbsession.commit()
-#     with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
-#         response = client.get('/employees/')
-#     data = response.get_json()
-#     assert data[0]["name"] == "t1"
-#     assert data[0]["department"] == "t1"
-#     assert data[1]["name"] == "t2"
-#     assert data[1]["department"] == "t2"
-# # Testing the projects get
-#     p1 = Projects(name="t1")
-#     p2 = Projects(name="t2")
-#     dbsession.add(p1)
-#     dbsession.add(p2)
-#     dbsession.commit()
-#     with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
-#         response = client.get('/projects/')
-#     data = response.get_json()
-#     assert data[0]["name"] == "t1"
-#     assert data[1]["name"] == "t2"
-# # Testing the project get
-#     with patch('app.db.session', new=dbsession), patch('m1.mqtt_client', return_value=mqtt_client):
-#         response = client.get('/projects/1')
-#     data = response.get_json()
-#     print(data)
-#     assert data["project_id"]==1
-#     assert data["project_name"] == "t1"
-
-#     mqtt_client.publish = MagicMock(side_effect=RuntimeError("Mqtt client is down"))
-#     res = client.post("/employees/", json={"name": "test", "department": "test"})
-#     assert res.status_code == 400
-#     obj = json.loads(res.data)
-#     assert obj['message'] == "Failed to create employee"
-#     res = client.put("/employees/1", json={"department": "test"})
-#     assert res.status_code == 400
-#     obj = json.loads(res.data)
-#     assert obj['message'] == 'Failed to update employee'
-# 
-#     response = client.delete("/employees/1")
-#     assert response.status_code == 400
-#     obj = json.loads(response.data)
-#     assert obj['message'] == "Failed to delete employee"
-# 
-#     response = client.post("/projects/", json={"name": "test"})
-#     assert response.status_code == 400
-#     obj = json.loads(response.data)
-#     assert obj['message'] == 'Failed to create project'
-# 
-#     response = client.put("/projects/1", json={"name": "test"})
-#     assert response.status_code == 400
-#     obj = json.loads(response.data)
-#     assert obj['message'] == 'Failed to update project'
-#     response = client.delete("/projects/1")
-#     assert response.status_code == 400
-#     obj = json.loads(response.data)
-#     assert obj['message'] == 'Failed to delete project'
-

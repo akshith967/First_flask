@@ -3,14 +3,14 @@ from Projects.models import Projects
 import pytest
 from unittest.mock import patch, MagicMock
 from db import db
-import pytest
 
 @pytest.fixture()
 def client():
     mock_client = MagicMock()
-    from app import app
-    with app.test_client() as test_client:
-        yield test_client
+    with patch('paho.mqtt.client.Client',return_value=mock_client):
+        from app import app
+        with app.test_client() as test_client:
+            yield test_client, mock_client
 @pytest.fixture()
 def new_employee():
     return Employees(name="test",department = "IT")
@@ -25,16 +25,13 @@ def dbsession(mysql):
     Session = sessionmaker(bind=mysql)
     session = scoped_session(Session)
     yield session
+    session.rollback()
     session.close()
 
-
+#
 @pytest.fixture
 def mock_app(dbsession):
     mock_app = MagicMock(spec=Flask)
     yield mock_app
 
-@pytest.fixture
-def mqtt_client():
-    mock_client = MagicMock()
-    with patch('paho.mqtt.client.Client',return_value=mock_client):
-        yield mock_client
+

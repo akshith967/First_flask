@@ -818,3 +818,329 @@ with app.app_context(). See the documentation for more information.
 2024-07-16 18:23:15,637 - app - ERROR - Failed to update employee: No row was found when one was required
 2024-07-16 18:23:15,664 - app - ERROR - Failed to delete project: No row was found when one was required
 2024-07-16 18:24:01,576 - app - INFO - Connected to broker
+2024-07-16 18:25:59,469 - app - INFO - Connected to broker
+2024-07-16 18:27:05,263 - app - INFO - Connected to broker
+2024-07-16 18:27:15,219 - app - INFO - Creating a new employee
+2024-07-16 18:27:15,225 - app - INFO - Updating an employee with id 1
+2024-07-16 18:27:15,228 - app - INFO - Deleting an employee with id 1
+2024-07-16 18:27:15,232 - app - INFO - Creating a new project
+2024-07-16 18:27:15,237 - app - INFO - Updating an employee with id 1
+2024-07-16 18:27:15,240 - app - INFO - Deleting an project with id 1
+2024-07-16 18:27:15,241 - app - INFO - Creation of employee failed
+2024-07-16 18:27:15,241 - app - INFO - Fetched all the employees
+2024-07-16 18:27:15,242 - app - INFO - Updation of employee failed with id: 1
+2024-07-16 18:27:15,242 - app - INFO - Deletion of employee failed with id: 1
+2024-07-16 18:27:15,242 - app - INFO - Project created successfully with id: 32
+2024-07-16 18:27:15,242 - app - INFO - Updation of project failed with id: 1
+2024-07-16 18:27:15,282 - app - INFO - Deletion of project failed with id: 1
+2024-07-16 18:29:03,950 - app - INFO - Connected to broker
+2024-07-16 18:29:13,906 - app - INFO - Creating a new employee
+2024-07-16 18:29:13,914 - app - INFO - Updating an employee with id 1
+2024-07-16 18:29:13,917 - app - INFO - Deleting an employee with id 1
+2024-07-16 18:29:13,921 - app - INFO - Creating a new project
+2024-07-16 18:29:13,929 - app - INFO - Updating an employee with id 1
+2024-07-16 18:29:13,932 - app - INFO - Deleting an project with id 1
+2024-07-16 18:29:13,933 - app - INFO - Creation of employee failed
+2024-07-16 18:29:13,933 - app - INFO - Updation of employee failed with id: 1
+2024-07-16 18:29:13,933 - app - INFO - Fetched all the employees
+2024-07-16 18:29:13,934 - app - INFO - Deletion of employee failed with id: 1
+2024-07-16 18:29:13,934 - app - INFO - Project created successfully with id: 33
+2024-07-16 18:29:13,934 - app - INFO - Updation of project failed with id: 1
+2024-07-16 18:29:13,934 - app - INFO - Deletion of project failed with id: 1
+2024-07-16 18:32:41,869 - app - INFO - Connected to broker
+2024-07-16 18:32:51,796 - app - INFO - Creating a new employee
+2024-07-16 18:32:51,801 - app - INFO - Updating an employee with id 1
+2024-07-16 18:32:51,804 - app - INFO - Deleting an employee with id 1
+2024-07-16 18:32:51,813 - app - INFO - Creating a new project
+2024-07-16 18:32:51,820 - app - INFO - Updating an employee with id 1
+2024-07-16 18:32:51,822 - app - INFO - Deleting an project with id 1
+2024-07-16 18:32:51,823 - app - INFO - Creation of employee failed
+2024-07-16 18:32:51,823 - app - INFO - Updation of employee failed with id: 1
+2024-07-16 18:32:51,824 - app - INFO - Fetched all the employees
+2024-07-16 18:32:51,824 - app - INFO - Fetched all the projects
+2024-07-16 18:32:51,824 - app - INFO - Employee deleted successfully with id: 1
+2024-07-16 18:32:51,824 - app - INFO - Project created successfully with id: 34
+2024-07-16 18:32:51,824 - app - INFO - Updation of project failed with id: 1
+2024-07-16 18:32:51,824 - app - INFO - Deletion of project failed with id: 1
+2024-07-16 18:33:33,385 - app - INFO - Connected to broker
+2024-07-16 18:33:43,352 - app - INFO - Creating a new employee
+2024-07-16 18:33:43,357 - app - INFO - Updating an employee with id 1
+2024-07-16 18:33:43,362 - app - INFO - Deleting an employee with id 1
+2024-07-16 18:33:43,368 - app - INFO - Creating a new project
+2024-07-16 18:33:43,373 - app - INFO - Updating an employee with id 1
+2024-07-16 18:33:43,377 - app - INFO - Deleting an project with id 1
+2024-07-16 18:33:43,380 - app - INFO - Creation of employee failed
+2024-07-16 18:33:43,380 - app - INFO - Fetched all the employees
+2024-07-16 18:33:43,380 - app - INFO - Employee updated successfully with id: 1
+2024-07-16 18:33:43,380 - app - INFO - Fetched all the projects
+2024-07-16 18:33:43,380 - app - INFO - Employee deleted successfully with id: 1
+2024-07-16 18:33:43,380 - app - INFO - Project created successfully with id: 35
+2024-07-16 18:33:43,380 - app - INFO - Updation of project failed with id: 1
+2024-07-16 18:33:43,380 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 10:24:29,632 - app - INFO - Connected to broker
+2024-07-17 10:24:39,755 - app - INFO - Creating a new employee
+2024-07-17 10:24:39,765 - app - INFO - Updating an employee with id 1
+2024-07-17 10:24:39,768 - app - INFO - Deleting an employee with id 1
+2024-07-17 10:24:39,772 - app - INFO - Creating a new project
+2024-07-17 10:24:39,776 - app - INFO - Updating an employee with id 1
+2024-07-17 10:24:39,779 - app - INFO - Deleting an project with id 1
+2024-07-17 10:24:39,783 - app - INFO - Fetched all the employees
+2024-07-17 10:24:39,783 - app - INFO - Creation of employee failed
+2024-07-17 10:24:39,783 - app - INFO - Fetched all the projects
+2024-07-17 10:24:39,783 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 10:24:39,783 - app - INFO - Employee deleted successfully with id: 1
+2024-07-17 10:24:39,784 - app - INFO - Project created successfully with id: 3
+2024-07-17 10:24:39,784 - app - INFO - Updation of project failed with id: 1
+2024-07-17 10:24:39,828 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 10:26:39,858 - app - INFO - Connected to broker
+2024-07-17 10:26:49,811 - app - INFO - Creating a new employee
+2024-07-17 10:26:49,818 - app - INFO - Updating an employee with id 1
+2024-07-17 10:26:49,821 - app - INFO - Deleting an employee with id 1
+2024-07-17 10:26:49,823 - app - INFO - Creating a new project
+2024-07-17 10:26:49,828 - app - INFO - Updating an employee with id 1
+2024-07-17 10:26:49,830 - app - INFO - Deleting an project with id 1
+2024-07-17 10:26:49,831 - app - INFO - Creation of employee failed
+2024-07-17 10:26:49,831 - app - INFO - Creating a new employee
+2024-07-17 10:26:49,834 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 10:26:49,834 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 10:26:49,834 - app - INFO - Project created successfully with id: 36
+2024-07-17 10:26:49,834 - app - INFO - Updation of project failed with id: 1
+2024-07-17 10:26:49,834 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 10:26:49,876 - app - INFO - Creation of employee failed
+2024-07-17 10:27:32,634 - app - INFO - Connected to broker
+2024-07-17 10:27:41,542 - app - INFO - Creating a new employee
+2024-07-17 10:27:41,546 - app - INFO - Creation of employee failed
+2024-07-17 11:06:11,344 - app - INFO - Connected to broker
+2024-07-17 11:06:20,416 - app - INFO - Creating a new employee
+2024-07-17 11:06:20,422 - app - INFO - Updating an employee with id 1
+2024-07-17 11:06:20,426 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:06:20,429 - app - INFO - Creating a new project
+2024-07-17 11:06:20,435 - app - INFO - Updating an employee with id 1
+2024-07-17 11:06:20,441 - app - INFO - Deleting an project with id 1
+2024-07-17 11:06:20,442 - app - INFO - Creation of employee failed
+2024-07-17 11:06:20,442 - app - INFO - Fetched all the employees
+2024-07-17 11:06:20,442 - app - INFO - Employee updated successfully with id: 1
+2024-07-17 11:06:20,442 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:06:20,443 - app - INFO - Fetched all the projects
+2024-07-17 11:06:20,443 - app - INFO - Project created successfully with id: 3
+2024-07-17 11:06:20,443 - app - INFO - Creating a new employee
+2024-07-17 11:06:20,445 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:06:20,446 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:06:20,492 - app - INFO - Creation of employee failed
+2024-07-17 11:08:07,558 - app - INFO - Connected to broker
+2024-07-17 11:08:16,329 - app - INFO - Creating a new employee
+2024-07-17 11:08:16,333 - app - INFO - Updating an employee with id 1
+2024-07-17 11:08:16,335 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:08:16,336 - app - INFO - Creating a new project
+2024-07-17 11:08:16,340 - app - INFO - Updating an employee with id 1
+2024-07-17 11:08:16,341 - app - INFO - Deleting an project with id 1
+2024-07-17 11:08:16,342 - app - INFO - Creating a new employee
+2024-07-17 11:08:16,344 - app - INFO - Creation of employee failed
+2024-07-17 11:08:16,345 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:08:16,345 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:08:16,345 - app - INFO - Project created successfully with id: 37
+2024-07-17 11:08:16,345 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:08:16,345 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:08:16,345 - app - INFO - Creation of employee failed
+2024-07-17 11:08:42,395 - app - INFO - Connected to broker
+2024-07-17 11:08:51,178 - app - INFO - Creating a new employee
+2024-07-17 11:08:51,181 - app - INFO - Updating an employee with id 1
+2024-07-17 11:08:51,183 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:08:51,184 - app - INFO - Creating a new project
+2024-07-17 11:08:51,188 - app - INFO - Updating an employee with id 1
+2024-07-17 11:08:51,189 - app - INFO - Deleting an project with id 1
+2024-07-17 11:08:51,190 - app - INFO - Creating a new employee
+2024-07-17 11:08:51,192 - app - INFO - Creation of employee failed
+2024-07-17 11:08:51,192 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:08:51,192 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:08:51,192 - app - INFO - Project created successfully with id: 38
+2024-07-17 11:08:51,192 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:08:51,193 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:08:51,193 - app - INFO - Creation of employee failed
+2024-07-17 11:12:50,829 - app - INFO - Connected to broker
+2024-07-17 11:12:59,594 - app - INFO - Creating a new employee
+2024-07-17 11:12:59,597 - app - INFO - Creation of employee failed
+2024-07-17 11:13:28,169 - app - INFO - Connected to broker
+2024-07-17 11:13:37,923 - app - INFO - Creating a new employee
+2024-07-17 11:13:37,927 - app - INFO - Creation of employee failed
+2024-07-17 11:17:09,781 - app - INFO - Connected to broker
+2024-07-17 11:17:18,519 - app - INFO - Creating a new employee
+2024-07-17 11:17:18,523 - app - INFO - Creation of employee failed
+2024-07-17 11:17:54,363 - app - INFO - Connected to broker
+2024-07-17 11:17:54,369 - app - INFO - Creating a new employee
+2024-07-17 11:17:57,007 - app - INFO - Connected to broker
+2024-07-17 11:17:57,017 - app - INFO - Creating a new employee
+2024-07-17 11:18:37,686 - app - INFO - Connected to broker
+2024-07-17 11:18:37,692 - app - INFO - Creating a new employee
+2024-07-17 11:19:35,998 - app - INFO - Connected to broker
+2024-07-17 11:19:36,004 - app - INFO - Creating a new employee
+2024-07-17 11:20:24,363 - app - INFO - Connected to broker
+2024-07-17 11:20:24,368 - app - INFO - Creating a new employee
+2024-07-17 11:21:23,186 - app - INFO - Connected to broker
+2024-07-17 11:21:23,192 - app - INFO - Creating a new employee
+2024-07-17 11:22:25,142 - app - INFO - Connected to broker
+2024-07-17 11:22:25,148 - app - INFO - Creating a new employee
+2024-07-17 11:23:36,801 - app - INFO - Connected to broker
+2024-07-17 11:23:36,808 - app - INFO - Creating a new employee
+2024-07-17 11:23:36,862 - app - INFO - Creation of employee failed
+2024-07-17 11:24:04,658 - app - INFO - Connected to broker
+2024-07-17 11:24:04,664 - app - INFO - Creating a new employee
+2024-07-17 11:24:45,454 - app - INFO - Connected to broker
+2024-07-17 11:24:45,461 - app - INFO - Creating a new employee
+2024-07-17 11:24:45,467 - app - INFO - Creating a new employee
+2024-07-17 11:24:45,470 - app - INFO - Creation of employee failed
+2024-07-17 11:24:45,516 - app - INFO - Creation of employee failed
+2024-07-17 11:26:31,146 - app - INFO - Connected to broker
+2024-07-17 11:26:31,157 - app - INFO - Creating a new employee
+2024-07-17 11:26:31,168 - app - INFO - Fetched all the employees
+2024-07-17 11:26:31,215 - app - INFO - Creation of employee failed
+2024-07-17 11:26:53,221 - app - INFO - Connected to broker
+2024-07-17 11:26:53,230 - app - INFO - Creating a new employee
+2024-07-17 11:26:53,242 - app - INFO - Fetched all the employees
+2024-07-17 11:26:53,242 - app - INFO - Creating a new employee
+2024-07-17 11:26:53,245 - app - INFO - Creation of employee failed
+2024-07-17 11:26:53,290 - app - INFO - Creation of employee failed
+2024-07-17 11:28:01,948 - app - INFO - Connected to broker
+2024-07-17 11:28:19,215 - app - INFO - Connected to broker
+2024-07-17 11:28:31,302 - app - INFO - Connected to broker
+2024-07-17 11:29:10,231 - app - INFO - Connected to broker
+2024-07-17 11:29:35,640 - app - INFO - Connected to broker
+2024-07-17 11:34:26,533 - app - INFO - Connected to broker
+2024-07-17 11:34:26,898 - app - INFO - Creating a new employee
+2024-07-17 11:34:26,904 - app - INFO - Creation of employee failed
+2024-07-17 11:37:29,002 - app - INFO - Connected to broker
+2024-07-17 11:37:29,162 - app - INFO - Creating a new employee
+2024-07-17 11:37:29,167 - app - INFO - Updating an employee with id 1
+2024-07-17 11:37:29,170 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:37:29,177 - app - INFO - Creating a new project
+2024-07-17 11:37:29,182 - app - INFO - Updating an employee with id 1
+2024-07-17 11:37:29,187 - app - INFO - Deleting an project with id 1
+2024-07-17 11:37:29,188 - app - INFO - Creation of employee failed
+2024-07-17 11:37:29,188 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:37:29,188 - app - INFO - Fetched all the employees
+2024-07-17 11:37:29,188 - app - INFO - Fetched all the projects
+2024-07-17 11:37:29,188 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:37:29,188 - app - INFO - Creating a new employee
+2024-07-17 11:37:29,190 - app - INFO - Project created successfully with id: 3
+2024-07-17 11:37:29,191 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:37:29,191 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:37:29,249 - app - INFO - Creation of employee failed
+2024-07-17 11:40:30,994 - app - INFO - Connected to broker
+2024-07-17 11:40:31,030 - app - INFO - Creating a new employee
+2024-07-17 11:40:31,034 - app - INFO - Updating an employee with id 1
+2024-07-17 11:40:31,037 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:40:31,039 - app - INFO - Creating a new project
+2024-07-17 11:40:31,045 - app - INFO - Updating an employee with id 1
+2024-07-17 11:40:31,049 - app - INFO - Deleting an project with id 1
+2024-07-17 11:40:31,050 - app - INFO - Fetched all the employees
+2024-07-17 11:40:31,050 - app - INFO - Creation of employee failed
+2024-07-17 11:40:31,051 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:40:31,051 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:40:31,051 - app - INFO - Fetched all the projects
+2024-07-17 11:40:31,051 - app - INFO - Creating a new employee
+2024-07-17 11:40:31,053 - app - INFO - Project created successfully with id: 3
+2024-07-17 11:40:31,053 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:40:31,053 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:40:31,110 - app - INFO - Creation of employee failed
+2024-07-17 11:40:39,824 - app - INFO - Connected to broker
+2024-07-17 11:40:39,854 - app - INFO - Creating a new employee
+2024-07-17 11:40:39,858 - app - INFO - Updating an employee with id 1
+2024-07-17 11:40:39,863 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:40:39,867 - app - INFO - Creating a new project
+2024-07-17 11:40:39,870 - app - INFO - Updating an employee with id 1
+2024-07-17 11:40:39,875 - app - INFO - Deleting an project with id 1
+2024-07-17 11:40:39,876 - app - INFO - Creation of employee failed
+2024-07-17 11:40:39,876 - app - INFO - Fetched all the employees
+2024-07-17 11:40:39,876 - app - INFO - Employee updated successfully with id: 1
+2024-07-17 11:40:39,876 - app - INFO - Fetched all the projects
+2024-07-17 11:40:39,876 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:40:39,876 - app - INFO - Creating a new employee
+2024-07-17 11:40:39,879 - app - INFO - Project created successfully with id: 3
+2024-07-17 11:40:39,879 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:40:39,879 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:40:39,935 - app - INFO - Creation of employee failed
+2024-07-17 11:42:13,291 - app - INFO - Connected to broker
+2024-07-17 11:42:13,326 - app - INFO - Creating a new employee
+2024-07-17 11:42:13,330 - app - INFO - Updating an employee with id 1
+2024-07-17 11:42:13,333 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:42:13,334 - app - INFO - Creating a new project
+2024-07-17 11:42:13,341 - app - INFO - Updating an employee with id 1
+2024-07-17 11:42:13,343 - app - INFO - Deleting an project with id 1
+2024-07-17 11:42:13,344 - app - INFO - Fetched all the employees
+2024-07-17 11:42:13,344 - app - INFO - Creation of employee failed
+2024-07-17 11:42:13,344 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:42:13,344 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:42:13,344 - app - INFO - Fetched all the projects
+2024-07-17 11:42:13,344 - app - INFO - Creating a new employee
+2024-07-17 11:42:13,347 - app - INFO - Project created successfully with id: 3
+2024-07-17 11:42:13,347 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:42:13,347 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:42:13,405 - app - INFO - Creation of employee failed
+2024-07-17 11:44:05,730 - app - INFO - Connected to broker
+2024-07-17 11:44:05,763 - app - INFO - Creating a new employee
+2024-07-17 11:44:05,768 - app - INFO - Updating an employee with id 1
+2024-07-17 11:44:05,771 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:44:05,772 - app - INFO - Creating a new project
+2024-07-17 11:44:05,779 - app - INFO - Updating an employee with id 1
+2024-07-17 11:44:05,783 - app - INFO - Deleting an project with id 1
+2024-07-17 11:44:05,784 - app - INFO - Creation of employee failed
+2024-07-17 11:44:05,784 - app - INFO - Fetched all the employees
+2024-07-17 11:44:05,784 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:44:05,784 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:44:05,784 - app - INFO - Fetched all the projects
+2024-07-17 11:44:05,785 - app - INFO - Creating a new employee
+2024-07-17 11:44:05,787 - app - INFO - Project created successfully with id: 3
+2024-07-17 11:44:05,788 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:44:05,788 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:44:05,847 - app - INFO - Creation of employee failed
+2024-07-17 11:44:59,255 - app - INFO - Connected to broker
+2024-07-17 11:44:59,286 - app - INFO - Creating a new employee
+2024-07-17 11:44:59,290 - app - INFO - Updating an employee with id 1
+2024-07-17 11:44:59,292 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:44:59,294 - app - INFO - Creating a new project
+2024-07-17 11:44:59,300 - app - INFO - Updating an employee with id 1
+2024-07-17 11:44:59,305 - app - INFO - Deleting an project with id 1
+2024-07-17 11:44:59,306 - app - INFO - Creation of employee failed
+2024-07-17 11:44:59,306 - app - INFO - Fetched all the employees
+2024-07-17 11:44:59,306 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:44:59,306 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:44:59,306 - app - INFO - Fetched all the projects
+2024-07-17 11:44:59,306 - app - INFO - Creating a new employee
+2024-07-17 11:44:59,308 - app - INFO - Project created successfully with id: 3
+2024-07-17 11:44:59,309 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:44:59,309 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:44:59,370 - app - INFO - Creation of employee failed
+2024-07-17 11:46:39,091 - app - INFO - Connected to broker
+2024-07-17 11:46:39,121 - app - INFO - Creating a new employee
+2024-07-17 11:46:39,127 - app - INFO - Updating an employee with id 1
+2024-07-17 11:46:39,129 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:46:39,134 - app - INFO - Creating a new project
+2024-07-17 11:46:39,138 - app - INFO - Updating an employee with id 1
+2024-07-17 11:46:39,139 - app - INFO - Deleting an project with id 1
+2024-07-17 11:46:39,140 - app - INFO - Fetched all the employees
+2024-07-17 11:46:39,140 - app - INFO - Creation of employee failed
+2024-07-17 11:46:39,140 - app - INFO - Updation of employee failed with id: 1
+2024-07-17 11:46:39,140 - app - INFO - Fetched all the projects
+2024-07-17 11:46:39,140 - app - INFO - Creating a new employee
+2024-07-17 11:46:39,142 - app - INFO - Deletion of employee failed with id: 1
+2024-07-17 11:46:39,143 - app - INFO - Project created successfully with id: 39
+2024-07-17 11:46:39,143 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:46:39,143 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:46:39,203 - app - INFO - Creation of employee failed
+2024-07-17 11:48:37,683 - app - INFO - Connected to broker
+2024-07-17 11:48:37,741 - app - INFO - Creating a new employee
+2024-07-17 11:48:37,745 - app - INFO - Updating an employee with id 1
+2024-07-17 11:48:37,748 - app - INFO - Deleting an employee with id 1
+2024-07-17 11:48:37,753 - app - INFO - Creating a new project
+2024-07-17 11:48:37,758 - app - INFO - Updating an employee with id 1
+2024-07-17 11:48:37,760 - app - INFO - Deleting an project with id 1
+2024-07-17 11:48:37,761 - app - INFO - Creation of employee failed
+2024-07-17 11:48:37,761 - app - INFO - Fetched all the employees
+2024-07-17 11:48:37,761 - app - INFO - Employee updated successfully with id: 1
+2024-07-17 11:48:37,761 - app - INFO - Fetched all the projects
+2024-07-17 11:48:37,761 - app - INFO - Employee deleted successfully with id: 1
+2024-07-17 11:48:37,761 - app - INFO - Creating a new employee
+2024-07-17 11:48:37,763 - app - INFO - Project created successfully with id: 40
+2024-07-17 11:48:37,763 - app - INFO - Updation of project failed with id: 1
+2024-07-17 11:48:37,764 - app - INFO - Deletion of project failed with id: 1
+2024-07-17 11:48:37,823 - app - INFO - Creation of employee failed

@@ -2,12 +2,12 @@ from flask import Blueprint, request, jsonify
 import json
 employees_bp = Blueprint('employees_bp',__name__)
 from m1 import mqtt_client
+from Employee.models import Employees
 
 
 @employees_bp.route('/', methods=['GET'])
 def get_employees():
     try:
-        from Employee.models import Employees
         employees = Employees.query.all()
         employee_list = [{'id': employee.id, 'name': employee.name, 'department': employee.department} for employee in employees]
         mqtt_client.publish("display_message", "Fetched all the employees")

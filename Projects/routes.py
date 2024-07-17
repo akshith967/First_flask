@@ -19,7 +19,7 @@ def get_projects():
 def get_employees(project_id):
     try:
         from .models import Projects
-        from Employee import Employees
+        from Employee.models import Employees
         from m1 import mqtt_client
         project = Projects.query.get(project_id)
         if not project:
