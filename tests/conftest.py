@@ -34,4 +34,8 @@ def mock_app(dbsession):
     mock_app = MagicMock(spec=Flask)
     yield mock_app
 
+@pytest.fixture
+def mock_logger():
+    mock_logger = MagicMock()
+    yield mock_logger
 

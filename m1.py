@@ -22,7 +22,6 @@ def on_connect(client, userdata, flags, rc):
     from app import logger
     if rc == 0:
         print("connected")
-
         logger.info("Connected to broker")
         for key, value in subscriber.items():
             client.subscribe(key)

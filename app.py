@@ -39,7 +39,7 @@ with app.app_context():
 
 @app.route('/')
 def hello_world():
-    return 'Hello World'
+    return 'Hello World',200
 
 if __name__ == '__main__':
     app.run()

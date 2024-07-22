@@ -1144,3 +1144,4 @@ with app.app_context(). See the documentation for more information.
 2024-07-17 11:48:37,763 - app - INFO - Updation of project failed with id: 1
 2024-07-17 11:48:37,764 - app - INFO - Deletion of project failed with id: 1
 2024-07-17 11:48:37,823 - app - INFO - Creation of employee failed
+2024-07-22 11:22:22,513 - app - ERROR - Failed to create employee: 'department'
