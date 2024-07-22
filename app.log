@@ -1145,3 +1145,77 @@ with app.app_context(). See the documentation for more information.
 2024-07-17 11:48:37,764 - app - INFO - Deletion of project failed with id: 1
 2024-07-17 11:48:37,823 - app - INFO - Creation of employee failed
 2024-07-22 11:22:22,513 - app - ERROR - Failed to create employee: 'department'
+2024-07-22 11:29:26,526 - app - INFO - Connected to broker
+2024-07-22 11:32:14,504 - app - INFO - Connected to broker
+2024-07-22 11:32:23,396 - app - INFO - Creating a new employee
+2024-07-22 11:32:23,406 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f62adfcce50> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:32:23,407 - app - INFO - Creation of employee failed
+2024-07-22 11:34:41,797 - app - INFO - Connected to broker
+2024-07-22 11:34:56,594 - app - INFO - Creating a new employee
+2024-07-22 11:34:56,605 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f416558de50> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:34:56,605 - app - INFO - Creation of employee failed
+2024-07-22 11:35:29,893 - app - INFO - Connected to broker
+2024-07-22 11:35:39,491 - app - INFO - Connected to broker
+2024-07-22 11:36:14,005 - app - INFO - Connected to broker
+2024-07-22 11:36:17,227 - app - INFO - Connected to broker
+2024-07-22 11:36:24,158 - app - INFO - Creating a new employee
+2024-07-22 11:36:24,169 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f4610713e50> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:36:24,169 - app - INFO - Creation of employee failed
+2024-07-22 11:41:34,103 - app - INFO - Connected to broker
+2024-07-22 11:41:45,410 - app - INFO - Connected to broker
+2024-07-22 11:41:51,179 - app - INFO - Connected to broker
+2024-07-22 11:41:59,027 - app - INFO - Creating a new employee
+2024-07-22 11:41:59,039 - app - ERROR - Failed to create employee: Instance <Employees at 0x7fd81aacfe50> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:41:59,039 - app - INFO - Creation of employee failed
+2024-07-22 11:42:21,549 - app - INFO - Connected to broker
+2024-07-22 11:42:27,816 - app - INFO - Creating a new employee
+2024-07-22 11:42:27,826 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f9dcae6be20> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:42:27,826 - app - INFO - Creation of employee failed
+2024-07-22 11:42:38,611 - app - INFO - Creating a new employee
+2024-07-22 11:42:38,618 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f9dcae76d60> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:42:38,618 - app - INFO - Creation of employee failed
+2024-07-22 11:43:28,716 - app - INFO - Connected to broker
+2024-07-22 11:43:31,268 - app - INFO - Creating a new employee
+2024-07-22 11:43:31,270 - app - ERROR - Failed to create employee: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2024-07-22 11:43:31,271 - app - INFO - Creation of employee failed
+2024-07-22 11:44:02,290 - app - INFO - Connected to broker
+2024-07-22 11:44:04,026 - app - INFO - Creating a new employee
+2024-07-22 11:44:04,037 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f9010836d00> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:44:04,038 - app - INFO - Creation of employee failed
+2024-07-22 11:44:08,356 - app - INFO - Creating a new employee
+2024-07-22 11:44:08,364 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f901076c520> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:44:08,364 - app - INFO - Creation of employee failed
+2024-07-22 11:44:27,152 - app - INFO - Connected to broker
+2024-07-22 11:44:28,983 - app - INFO - Creating a new employee
+2024-07-22 11:44:28,994 - app - ERROR - Failed to create employee: Instance <Employees at 0x7fcdba629730> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:44:28,994 - app - INFO - Creation of employee failed
+2024-07-22 11:45:01,242 - app - INFO - Connected to broker
+2024-07-22 11:45:03,350 - app - INFO - Creating a new employee
+2024-07-22 11:45:03,362 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f4395272730> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:45:03,362 - app - INFO - Creation of employee failed
+2024-07-22 11:45:13,333 - app - INFO - Fetched all the employees
+2024-07-22 11:45:36,429 - app - INFO - Updating an employee with id 1
+2024-07-22 11:45:36,439 - app - INFO - Employee updated successfully with id: 1
+2024-07-22 11:46:26,482 - app - INFO - Connected to broker
+2024-07-22 11:46:39,765 - app - INFO - Creating a new employee
+2024-07-22 11:46:39,778 - app - INFO - Employee created successfully with id: 11
+2024-07-22 11:47:44,862 - app - INFO - Connected to broker
+2024-07-22 11:47:48,806 - app - INFO - Creating a new employee
+2024-07-22 11:47:48,820 - app - INFO - Employee created successfully with id: 12
+2024-07-22 11:48:38,225 - app - INFO - Connected to broker
+2024-07-22 11:48:40,187 - app - INFO - Creating a new employee
+2024-07-22 11:48:40,199 - app - ERROR - Failed to create employee: Instance <Employees at 0x7f8c62ce37c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2024-07-22 11:48:40,200 - app - INFO - Creation of employee failed
+2024-07-22 11:49:03,033 - app - INFO - Connected to broker
+2024-07-22 11:49:06,161 - app - INFO - Creating a new employee
+2024-07-22 11:49:06,177 - app - INFO - Employee created successfully with id: 14
+2024-07-22 11:51:39,525 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-07-22 11:51:39,554 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-07-22 11:52:38,820 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-07-22 11:52:38,850 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-07-22 11:53:27,855 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-07-22 11:53:27,884 - app - ERROR - Failed to delete project: No row was found when one was required

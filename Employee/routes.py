@@ -18,7 +18,6 @@ def get_employees():
 @employees_bp.route('/', methods=['POST'])
 def create_employee():
     try:
-        # from m1 import mqtt_client
         data = request.json
         mqtt_client.publish("display_message", "Creating a new employee")
         mqtt_client.publish("employee/insert", json.dumps(data))

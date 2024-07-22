@@ -9,7 +9,7 @@ def insert_table(client, userdata, message):
             new_employee = Employees(name=data['name'], department=data['department'])
             db.session.add(new_employee)
             db.session.commit()
-        client.publish("display_message", f"Employee created successfully with id: {new_employee.id}")
+            client.publish("display_message", f"Employee created successfully with id: {new_employee.id}")
     except Exception as e:
         client.publish("display_message", "Creation of employee failed")
         logger.error(f"Failed to create employee: {e}")

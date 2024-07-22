@@ -28,14 +28,14 @@ app.register_blueprint(projects_bp, url_prefix='/projects')
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://ak:root@127.0.0.1:3306/company'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-migrate = Migrate()
-migrate.init_app(app, db)
+
 db.init_app(app)
 from Employee.models import Employees
 from Projects.models import Projects
 with app.app_context():
     db.create_all()
-
+migrate = Migrate()
+migrate.init_app(app, db)
 
 @app.route('/')
 def hello_world():
