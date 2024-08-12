@@ -19,7 +19,6 @@ logger.addHandler(file_handler)
 
 
 app = Flask(__name__)
-
 from Employee.routes import employees_bp
 from Projects.routes import projects_bp
 
@@ -43,9 +42,3 @@ def hello_world():
 
 if __name__ == '__main__':
     app.run()
-
-
-
-
-
-

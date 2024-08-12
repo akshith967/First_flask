@@ -60,7 +60,6 @@ def test_api2(client,dbsession):
     with patch('app.db.session', new=dbsession):
         response = client[0].get('/projects/1')
     data = response.get_json()
-    print(data)
     assert data["project_id"]==1
     assert data["project_name"] == "t1"
 
@@ -107,6 +106,9 @@ def test_api2(client,dbsession):
     obj = json.loads(response.data)
     assert obj['message'] == 'Failed to delete project'
 def test_insert_table(dbsession,mock_app,mock_logger):
+
+    # testing the insertion success
+
     import Employee.methods as e_methods
     import Projects.methods as p_methods
     from Employee.models import Employees
@@ -122,6 +124,9 @@ def test_insert_table(dbsession,mock_app,mock_logger):
     assert new_employee.name == 'Alice'
     assert new_employee.department == 'Engineering'
     client.publish.assert_called_with("display_message", f"Employee created successfully with id: {new_employee.id}")
+
+    # testing the insertion failure
+
     message.payload.decode.return_value = json.dumps({'name': 'Alice'})
     with patch('app.db.session', new = dbsession), patch('app.app', return_value=mock_app), patch('app.logger', return_value = mock_logger):
         e_methods.insert_table(client, None, message)
@@ -170,7 +175,7 @@ def test_update_table(dbsession,mock_app,mock_logger):
         'e_id': 2,
         'user': {'name': 'Bob Updated', 'department': 'Finance','project_id': 1}
     })
-#
+#   Update failure
     with patch('app.db.session', new = dbsession), patch('app.app', new=mock_app), patch('app.logger', return_value = mock_logger):
         e_methods.update_table(client, None, message)
     client.publish.assert_called_with("display_message", f"Updation of employee failed with id: 2")

@@ -21,6 +21,7 @@ def update_table(client, userdata, message):
     try:
         with app.app_context():
             data = json.loads(message.payload.decode())
+            # employee = Employees.query.get_or_404(data['e_id'])
             employee = db.session.query(Employees).filter_by(id=data["e_id"]).one()
             if(data['user'].get('name') != None):
                 employee.name = data['user'].get('name')

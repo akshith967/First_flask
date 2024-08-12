@@ -17,8 +17,11 @@ def new_employee():
 
 from flask import Flask
 from pytest_mock_resources import create_mysql_fixture
-mysql = create_mysql_fixture(db.Model, session=None)
 from sqlalchemy.orm import scoped_session, sessionmaker
+
+
+# Mocking the database
+mysql = create_mysql_fixture(db.Model, session=None)
 
 @pytest.fixture
 def dbsession(mysql):
@@ -28,9 +31,8 @@ def dbsession(mysql):
     session.rollback()
     session.close()
 
-#
 @pytest.fixture
-def mock_app(dbsession):
+def mock_app():
     mock_app = MagicMock(spec=Flask)
     yield mock_app
 

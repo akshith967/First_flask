@@ -1219,3 +1219,50 @@ with app.app_context(). See the documentation for more information.
 2024-07-22 11:52:38,850 - app - ERROR - Failed to delete project: No row was found when one was required
 2024-07-22 11:53:27,855 - app - ERROR - Failed to update employee: No row was found when one was required
 2024-07-22 11:53:27,884 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-01 11:41:27,724 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-01 11:41:27,752 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-08 17:06:16,972 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-08 17:06:17,002 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-08 17:07:00,980 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-08 17:07:01,011 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-08 17:08:52,705 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-08 17:08:52,734 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-08 17:25:38,474 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-08 17:25:38,503 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:05:18,811 - app - INFO - Connected to broker
+2024-08-12 14:55:36,006 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:55:36,036 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:57:54,858 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:57:54,892 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:58:52,905 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:58:52,940 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:59:38,153 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 14:59:38,186 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 15:00:03,670 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 15:00:03,704 - app - ERROR - Failed to delete project: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 15:02:09,979 - app - ERROR - Failed to update employee: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-08-12 15:02:10,010 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:04:13,903 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:04:13,937 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:11:44,034 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:11:44,071 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:14:40,066 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:14:40,096 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:18:12,112 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:18:12,146 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:38:19,809 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:38:19,840 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:38:48,786 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:38:48,824 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:38:57,488 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:38:57,520 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 15:55:48,308 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 15:55:48,337 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 16:32:50,038 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 16:32:50,064 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 16:33:28,633 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 16:33:28,658 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 16:34:48,102 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 16:34:48,128 - app - ERROR - Failed to delete project: No row was found when one was required
+2024-08-12 17:25:56,756 - app - ERROR - Failed to update employee: No row was found when one was required
+2024-08-12 17:25:56,782 - app - ERROR - Failed to delete project: No row was found when one was required
