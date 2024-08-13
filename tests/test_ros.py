@@ -8,6 +8,7 @@ def test_initialize_node(mock_rospy):
     # Assert that rospy.init_node was called with specific arguments
     mock_rospy.init_node.assert_called_once_with('my_node', anonymous=True)
     mock_rospy.loginfo.assert_called_once_with("Node initialized")
+
 @patch('ros.rospy')
 def test_talker(mock_rospy):
     # Mock the Publisher
